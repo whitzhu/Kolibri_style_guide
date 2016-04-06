@@ -1,0 +1,135 @@
+@font-face {
+  font-family: NotoSans;
+  src: url(../NotoSans/NotoSans-Regular.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: NotoSans;
+  src: url(../NotoSans/NotoSans-Bold.ttf);
+  font-weight: bold;
+}
+
+/** {
+  font-family: NotoSans !important;
+}*/
+p, a, div, h3, h4, li {
+  font-family: NotoSans !important;
+  color: #696969;
+}
+
+html, body {
+  background-color: #FAFAFA;
+}
+body, p {
+  font-size: 14px !important;
+}
+
+.button, .button.success, .button.secondary, .button.small, button {
+  webkit-box-shadow: none;
+  box-shadow: none;
+  border-radius: 4px;
+  height: 36px;
+  padding: 7px 24px;
+}
+
+.button:hover, .button.success:hover, .button.secondary:hover, .button.small:hover, button:hover {
+  background-color: #067c7b;
+  /*color: white !important;*/
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none; 
+}
+
+
+.primary {
+  color: #bd8cc0 !important;
+}
+.primary_dark {
+  color: #915194 !important;
+}
+.primary_light {
+  color: #eddeed !important;
+}
+.bk_primary {
+  background-color: #bd8cc0;
+}
+.bk_primary_dark {
+  background-color: #915194;
+}
+.bk_primary_light {
+  background-color: #eddeed;
+}
+
+
+.action {
+  color: #55aa93;
+}
+.action_dark {
+  color: #067c7b;
+}
+.action_light {
+  color: #067c7b;
+}
+.bk_action {
+  background-color: #55aa93;
+}
+.bk_action_dark {
+  background-color: #067c7b;
+}
+.bk_action_light {
+  background-color: #deede9;
+}
+
+.background {
+  background-color: #FAFAFA;
+}
+.background_dark {
+  background-color: #696969;
+}
+.background_light {
+  background-color: #FFFFFF;
+}
+
+
+
+.default_text {
+  color: #696969;
+}
+
+
+.palette-block {
+  width: 200px;
+}
+.palette-block section {
+  box-shadow: none;
+}
+.palette-button {
+  width: 166px;
+}
+
+
+
+
+/*Typography*/
+
+
+.light-text {
+  font-family: "NotoSans";
+  font-weight: 300;
+  letter-spacing: 0.015em;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: 0.07em; }
+
+.regular-text {
+  font-family: "NotoSans";
+  font-weight: 400;
+  letter-spacing: 0.0075em;
+  -webkit-font-smoothing: antialiased; }
+
+strong,
+.bold-text {
+  font-family: "NotoSans";
+  font-weight: 700;
+  letter-spacing: 0.035em;
+  -webkit-font-smoothing: antialiased; }

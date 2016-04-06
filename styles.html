@@ -1,0 +1,689 @@
+<!doctype html>
+  <!--[if lt IE 7]>
+  <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+  <!--[if IE 7]>
+  <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+  <!--[if IE 8]>
+  <html class="no-js lt-ie9"> <![endif]-->
+  <!--[if gt IE 8]><!-->
+<html class="no-js"> <!--<![endif]-->
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Kolibri Style Guide</title>
+  <meta name="description" content="Barricade's Language, Style Guide, Tone, Vocal Language, Tone.">
+
+  <meta name="viewport" content="width=device-width">
+
+  <link rel="icon" type="image/png" href="assets/img/favicon.ico" />
+  <link rel="apple-touch-icon-precomposed" href="assets/img/apple-touch-icon-precomposed.png" />
+
+  <link rel="stylesheet" href="assets/css/styleguide.css">
+  <link rel="stylesheet" href="assets/css/kolibri_style.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
+  <script src="//use.typekit.net/rls2lvm.js"></script>
+  <script>try{Typekit.load();}catch(e){}</script>
+</head>
+
+<body id="dash" ng-app="app">
+  <!--[if lt IE 7]>
+  <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
+    your browser</a> to improve your experience.</p>
+  <![endif]-->
+
+  <section role="main" class="scroll-container">
+    <div class="row full-width styleguide">
+
+      <div class="large-2 medium-12 columns sidebar-wrap">
+        <div class="sidebar">
+
+          <h1>
+            <a href="index.html" title="Barricade Styleguide">
+              <span>Barricade</span>
+              <img src="assets/img/logo_circle_white.png">
+            </a>
+          </h1>
+
+          <nav role="navigation">
+            <ul class="side-nav">
+              <li class="heading"><a href="index.html">Intro</a>
+                <ul>
+                  <li><a href="index.html#outline">Outline</a></li>
+                  <li><a href="index.html#vision">Vision</a></li>
+                </ul>
+              </li>
+
+              <li class="heading active"><a class="primary" href="styles.html" style='font-weight: bold;'>Styles</a>
+                <ul>
+                  <li><a href="styles.html#colors">Colors</a></li>
+                  <li><a href="styles.html#typography">Typography</a></li>
+                  <li><a href="styles.html#buttons">Buttons</a></li>
+                  <li><a href="styles.html#forms">Forms</a></li>
+                  <li><a href="styles.html#icons">Icons</a></li>
+                </ul>
+              </li>
+
+              <li class="heading"><a href="assets.html">Assets</a>
+                <ul>
+                  <li><a href="assets.html#brandelements">Brand Elements</a></li>
+                  <li><a href="assets.html#imagery">Imagery</a></li>
+                </ul>
+              </li>
+
+              <li class="heading"><a href="voice.html">Voice &amp; Tone</a></li>
+            </ul>
+          </nav>
+
+        </div>
+      </div>
+
+      <div class="large-10 medium-12 columns">
+        <div class="row">
+          <div class="large-10 large-centered medium-10 medium-centered small-12 small-centered column">
+
+            <h3 id="colors" style='font-weight: bold;'>Colors</h3>
+
+            <p>Primary:</p>
+            <div class="row">
+              <div class="small-4 medium-3 large-2 columns left palette-block" data-clipboard-text="#bd8cc0">
+                <section>
+                  <div class="palette-button bk_primary"></div>
+                  <small>Normal</small>
+                  <small>current state</small>
+                  <span>bd8cc0</span>
+                </section>
+              </div>
+
+              <div class="small-4 medium-3 large-2 columns left palette-block" data-clipboard-text="#eddeed">
+                <section>
+                  <div class="palette-button bk_primary_light"></div>
+                  <small>Light</small>
+                  <small>available options</small>
+                  <span>eddeed</span>
+                </section>
+              </div>
+
+              <div class="small-4 medium-3 large-2  columns left palette-block" data-clipboard-text="#915194">
+                <section>
+                  <div class="palette-button bk_primary_dark"></div>
+                  <small>Dark</small>
+                  <small>? ? ?</small>
+                  <span>915194</span>
+                </section>
+              </div>
+            </div>
+
+            <p>Action:</p>
+            <div class="row">
+              <div class="small-4 medium-3 large-2 columns left palette-block" data-clipboard-text="#55aa93">
+                <section>
+                  <div class="palette-button bk_action"></div>
+                  <small>Normal</small>
+                  <small>promoted future</small>
+                  <span>55aa93</span>
+                </section>
+              </div>
+
+              <div class="small-4 medium-3 large-2 columns left palette-block" data-clipboard-text="#deede9">
+                <section>
+                  <div class="palette-button bk_action_light"></div>
+                  <small>Light</small>
+                  <small>potential future</small>
+                  <span>deede9</span>
+                </section>
+              </div>
+
+              <div class="small-4 medium-3 large-2 columns left palette-block" data-clipboard-text="#067c7b">
+                <section>
+                  <div class="palette-button bk_action_dark"></div>
+                  <small>Dark</small>
+                  <small>? ? ?</small>
+                  <span>067c7b</span>
+                </section>
+              </div>
+            </div>
+
+            <p>Background:</p>
+            <div class="row">
+              <div class="small-4 medium-3 large-2 columns left palette-block" data-clipboard-text="#FAFAFA">
+                <section>
+                  <div class="palette-button background"></div>
+                  <small>Normal</small>
+                  <small>ubiquitous</small>
+                  <span>FAFAFA</span>
+                </section>
+              </div>
+
+              <div class="small-4 medium-3 large-2 columns left palette-block" data-clipboard-text="#FFFFFF">
+                <section>
+                  <div class="palette-button background_light"></div>
+                  <small>Light</small>
+                  <small>quietly waitting for input</small>
+                  <span>FFFFFF</span>
+                </section>
+              </div>
+
+              <div class="small-4 medium-3 large-2 columns left palette-block" data-clipboard-text="#696969">
+                <section>
+                  <div class="palette-button background_dark"></div>
+                  <small>Dark</small>
+                  <small>? ? ?</small>
+                  <span>696969</span>
+                </section>
+              </div>
+            </div>
+
+            <p>Text:</p>
+            <!-- blues -->
+            <div class="row">
+              <div class="small-4 medium-3 large-2 columns left palette-block" data-clipboard-text="#696969">
+                <section>
+                  <div class="palette-button" style='background-color: #696969;'></div>
+                  <small>Default</small>
+                  <small>readable</small>
+                  <span>696969</span>
+                </section>
+              </div>
+
+              <div class="small-4 medium-3 large-2 columns left palette-block" data-clipboard-text="#A5A5A5">
+                <section>
+                  <div class="palette-button" style='background-color: #A5A5A5;'></div>
+                  <small>Annotation</small>
+                  <small>description/non-actionable</small>
+                  <span>A5A5A5</span>
+                </section>
+              </div>
+
+              <div class="small-4 medium-3 large-2 columns left palette-block" data-clipboard-text="#EF2121">
+                <section>
+                  <div class="palette-button" style='background-color: #EF2121;'></div>
+                  <small>Alert</small>
+                  <small>error/failure/danger</small>
+                  <span>EF2121</span>
+                </section>
+              </div>
+            </div>
+
+
+            <p>&nbsp;</p>
+
+            <h3 id="typography" style='font-weight: bold;'>Typography</h3>
+
+            <section class="layout-panel">
+              <div class="row">
+                <div class="small-12 large-7 columns">
+
+                  <h2 class="light-text" style="margin-bottom:-0.25rem;">Futura PT Light</h2>
+                  <small class="regular-text">Weight 300, letter-spacing 0.07ems</small>
+
+                  <h2 class="regular-text" style="margin-bottom:-0.25rem;">Futura PT Regular</h2>
+                  <small class="regular-text">Weight 400, letter-spacing 0.0075ems</small>
+
+                  <h2 class="bold-text" style="margin-bottom:-0.25rem;">Futura PT Bold</h2>
+                  <small class="regular-text">Weight 700, letter-spacing 0.035ems</small>
+                  <br>
+                </div>
+              </div>
+            </section>
+
+            <p>Examples:</p>
+
+            <div class="type-demo">
+
+              <h1>h1. A Very Large header</h1>
+
+              <h2>h2. Another large header</h2>
+              <h2 class="onboard-welcome">h2.onboard-welcome</h2>
+              <h2 class="onboard">h2.onboard-welcome</h2>
+              <h2 class="onboard-tasks">h2.onboard-tasks</h2>
+              <h2 class="welcome-text">h2.welcome-text</h2>
+
+              <p>&nbsp;</p>
+
+              <h3>h3. This is a medium header</h3>
+              <h3 class="scan-text">h3. Scan text header</h3>
+              <div class="content">
+                <h3>h3. Content header</h3>
+                <span class="alert"><h3>h3. Content Alert Header header</h3></span>
+              </div>
+
+              <p>&nbsp;</p>
+
+              <h4>h4. This is a moderate header</h4>
+              <h4 class="day">h4. Day header</h4>
+
+              <p>&nbsp;</p>
+
+              <h5>h5. This is a small header</h5>
+              <div class="line-chart-wrap">
+                <h5>h5. line-chart-wrap header</h5>
+              </div>
+              <div class="content">
+                <h5>h5. Content header</h5>
+              </div>
+
+              <p>&nbsp;</p>
+
+              <p><strong>Paragraph text. </strong>Security is a strong brand differentiator. Your customers deserve the respect they are entitled to. We also understand that growing your business is your main priority and have built Barricade with that in mind.</p>
+
+              <p>It's extremely easy for engineers and ops teams to setup, then we fade into the background for the majority of the time. We only alert you with important information and steps to remedy the situation.</p>
+
+              <p class="light-text"><strong>p.light-text</strong> Security is a strong brand differentiator. Your customers deserve the respect they are entitled to. We also understand that growing your business is your main priority and have built Barricade with that in mind.</p>
+
+              <p class="light-text">It's extremely easy for engineers and ops teams to setup, then we fade into the background for the majority of the time. We only alert you with important information and steps to remedy the situation.</p>
+
+              <p class="chart_num">p.chart_num 100%</p>
+
+              <div class="row">
+                <div class="small-6 large-6 columns">
+                  <p class="chart_name">p.chart_name</p>
+                </div>
+                <div class="small-6 large-6 columns">
+                  <p class="date">p.date Date Text</p>
+                </div>
+              </div>
+
+              <hr>
+
+              <p>&nbsp;</p>
+
+              <!--
+              <h5>Definition lists are great for small block of copy that describe the header</h5>
+              <dl>
+                <dt>Lower cost</dt>
+                <dd>The new version of this product costs significantly less than the previous one!</dd>
+                <dt>Easier to use</dt>
+                <dd>We've changed the product so that it's much easier to use!</dd>
+                <dt>Safe for kids</dt>
+                <dd>You can leave your kids alone in a room with this product and they won't get hurt (not a guarantee).</dd>
+              </dl>
+              <hr>
+
+              <h5>Un-ordered lists are great for making quick outlines bulleted.</h5>
+              <ul class="disc">
+                <li>List item with a much longer description or more content.</li>
+                <li>List item</li>
+                <li>List item
+                  <ul>
+                    <li>Nested List Item</li>
+                    <li>Nested List Item</li>
+                    <li>Nested List Item</li>
+                  </ul>
+                </li>
+                <li>List item</li>
+                <li>List item</li>
+                <li>List item</li>
+              </ul>
+
+              <h5>Ordered lists are great for lists that need order, duh.</h5>
+              <ol>
+                <li>List Item 1</li>
+                <li>List Item 2</li>
+                <li>List Item 3</li>
+              </ol>
+
+              <br>
+              <h5>Blockquote</h5>
+              <blockquote>I do not fear computers. I fear the lack of them. Maecenas faucibus mollis interdum. Aenean lacinia bibendum nulla sed consectetur.<cite>Isaac Asimov</cite></blockquote>
+
+              <hr>
+              -->
+
+              <p>&nbsp;</p>
+
+            </div>
+
+            <h3 id="uielements" style='font-weight: bold;'>UI Elements</h3>
+
+            <section class="layout-panel">
+              <div class="row">
+                <div class="small-12 large-8 columns">
+                  <p>Our Style Guide is based on <strong>Flat design</strong>, a minimalist UI design genre that is adopted by all major mobile OS.</p>
+
+                  <p>*Although depth isn't totally forbidden, use it very prudently.*</p>
+                </div>
+                <div id="buttons" class="small-3 large-3 columns hide-for-small left">
+                  <img src="assets/img/le_design.png" class="right">
+                </div>
+              </div>
+            </section>
+
+            <p>Standard Button Examples:</p>
+
+            <div class="row">
+
+              <div class="large-6 columns">
+                <a href="" class="tiny button">.tiny.button</a><br>
+                <a href="" class="small button">.small.button</a><br>
+                <button type="button" class="button small" disabled>.button (disabled)</button><br>
+                <a href="" class="button expand">.expand</a><br>
+              </div>
+
+              <div class="large-6 columns">
+                <a href="" class="button secondary">.tiny.secondary</a><br>
+                <a href="" class="small button success radius">.small.success.radius</a><br>
+                <a href="" class="button tiny round disabled">.round.disabled</a><br>
+                <a href="" class="button small cancel"><span class="fa fa-times">&nbsp;</span> Cancel</a><br>
+              </div>
+            </div>
+
+            <p>&nbsp;</p>
+            <p>Custom Border Buttons:</p>
+
+            <div class="row">
+
+              <div class="large-6 columns">
+                <a href="" class="button hollow">
+                  A Regular Border Button
+                </a>
+                <br>
+                <a href="" class="button hollow primary">
+                  <i class="fa fa-paper-plane left"></i> 
+                  A Primary Border Button
+                </a>
+                <br>
+                <a href="" class="button hollow secondary">
+                  A Secondary Border Button 
+                  <i class="fa fa-chevron-right right"></i>
+                </a>
+              </div>
+
+              <div class="large-6 columns">
+                <a href="" class="button hollow disabled">
+                  Disabled Border Button
+                </a>
+                <br>
+                <a href="" class="button hollow primary disabled">
+                  <i class="fa fa-paper-plane left"></i> 
+                  Disabled Primary Border 
+                </a>
+                <br>
+                <button class="button hollow secondary" disabled>
+                  Disabled Secondary Border 
+                  <i class="fa fa-chevron-right right"></i>
+                </button>
+              </div>
+            </div>
+
+            <p>Sizes:</p>
+
+            <a href="" class="large button hollow">Large Button</a>
+            &nbsp;&nbsp; 
+            <a href="" class="large button hollow secondary">Large Button</a> 
+            <br>
+            <a href="" class="button hollow">Regular Button</a>
+            &nbsp;&nbsp; 
+            <a href="" class="button hollow secondary">Regular Button</a>
+            <br>
+            <a href="" class="button hollow small">Small Button</a>
+            &nbsp;&nbsp; 
+            <a href="" class="button hollow small secondary">Small Button</a> 
+            <br>
+            <a href="" class="button hollow tiny">Tiny Button</a>
+            &nbsp;&nbsp; 
+            <a href="" class="button hollow tiny secondary">Tiny Button</a>
+            <br>
+            <a href="" class="button hollow compact">Compact Button</a>
+            &nbsp;&nbsp; 
+            <a href="" class="button hollow compact secondary">Compact Button</a>
+            <a href="" class="button hollow compact secondary">
+              Filter 
+              <i class="fa fa-filter right"></i>
+            </a>
+            </p>
+
+            <p id="forms">&nbsp;</p>
+
+            <p>Form Examples:</p>
+
+            <form>
+              <div class="row">
+                <div class="large-12 columns">
+                  <label>Input Label
+                    <input type="text" placeholder="large-12.columns">
+                  </label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="large-4 columns">
+                  <label>Input Label
+                    <input type="text" placeholder="large-4.columns">
+                  </label>
+                </div>
+                <div class="large-4 columns">
+                  <label>Input Label
+                    <input type="text" placeholder="large-4.columns">
+                  </label>
+                </div>
+                <div class="large-4 columns">
+                  <div class="row collapse">
+                    <label>Input Label</label>
+                    <div class="small-9 columns">
+                      <input type="text" placeholder="small-9.columns">
+                    </div>
+                    <div class="small-3 columns">
+                      <span class="postfix">.com</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="large-12 columns">
+                  <label>Select Box
+                    <select>
+                      <option value="husker">Husker</option>
+                      <option value="starbuck">Starbucks</option>
+                      <option value="hotdog">Hot Dog</option>
+                      <option value="apollo">Apollo</option>
+                    </select>
+                  </label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="large-6 columns">
+                  <label>Choose Your Favorite</label>
+                  <input type="radio" name="pokemon" value="Red" id="pokemonRed"><label for="pokemonRed">Red</label>
+                  <input type="radio" name="pokemon" value="Blue" id="pokemonBlue"><label for="pokemonBlue">Blue</label>
+                </div>
+                <div class="large-6 columns">
+                  <label>Check These Out</label>
+                  <input id="checkbox1" type="checkbox"><label for="checkbox1">Checkbox 1</label>
+                  <input id="checkbox2" type="checkbox"><label for="checkbox2">Checkbox 2</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="large-12 columns">
+                  <label>Textarea Label
+                    <textarea placeholder="small-12.columns"></textarea>
+                  </label>
+                </div>
+              </div>
+            </form>
+
+            <p>&nbsp;</p>
+
+            <h3 id="icons" style='font-weight: bold;'>Icons</h3>
+
+            <section class="layout-panel" style="background-color: #03A9F4; color: white; font-weight: 700; font-size: 24px; padding: 0.5em 1.5em 0.5em;">Material icons</section>
+
+            <p>Use icons on frequent actions. Most of the time, company with descriptions.</a>
+
+            <div class="row font-awesome-list">
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">accessibility</i> accessibility</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">account_box</i> account box</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">account_circle</i> account circle</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">alarm</i> alarm</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">announcement</i> announcement</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">assessment</i> assessment</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">assignment</i> assignment</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">autorenew</i> autorenew</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">backup</i> backup</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">bookmark</i> bookmark</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">bookmark_border</i> bookmark border</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">bug_report</i> bug report</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">build</i> build</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">cached</i> cached</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">change_history</i> change history</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">check_circle</i> check circle</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">code</i> code</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">compare_arrows</i> compare arrows</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">copyright</i> copyright</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">credit_card</i> credit card</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">dashboard</i> dashboard </div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">date_range</i> date range</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">delete</i> delete</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">delete_forever</i> delete forever</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">description</i> description</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">dns</i> dns</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">done</i> done</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">done_all</i> done all</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">eject</i> eject</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">euro_symbol</i> euro symbol</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">event</i> event</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">exit_to_app</i> exit to app</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">explore</i> explore</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">extension</i> extension</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">face</i> face</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">favorite</i> favorite</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">favorite_border</i> favorite border</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">feedback </i> feedback </div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">find_in_page</i> find in page</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">fingerprint</i> fingerprint</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">get_app</i> get app</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">grade</i> grade</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">group_work</i> group work</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">help</i> help</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">help_outline</i> help outline</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">highlight_off</i> highlight off</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">history</i> history</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">hourglass_empty </i> hourglass empty</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">hourglass_full</i> hourglass full</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">https </i> https</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">important_devices </i> important devices </div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">info</i> info</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">info_outline </i> info outline </div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">input</i> input</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">invert_colors</i> invert colors</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">label</i> label</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">label_outline </i> label outline </div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">language</i> language</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">launch</i> launch</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">lightbulb_outline</i> lightbulb outline</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">list</i> list</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">lock</i> lock</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">lock_open</i> lock open</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">lock_outline</i> lock outline</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">loyalty</i> loyalty</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">note_add</i> note add</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">opacity</i> opacity</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">open_in_browser</i> open in browser</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">open_in_new</i> open in new</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">open_with </i> open with </div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">pan_tool</i> pan tool</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">perm_device_information</i> perm device information</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">perm_identity</i> perm identity</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">perm_media</i> perm media</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">perm_scan_wifi</i> perm scan wifi</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">pets</i> pets</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">print</i> print</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">query_builder</i> query builder</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">question_answer </i> question answer </div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">reorder</i> reorder</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">report_problem</i> report problem</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">restore </i> restore </div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">restore_page</i> restore page</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">room</i> room</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">schedule</i> schedule</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">search</i> search</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">settings</i> settings</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">settings_applications</i> settings applications</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">settings_ethernet</i> settings ethernet</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">settings_remote</i> settings remote</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">shop</i> shop</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">shopping_cart</i> shopping cart</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">speaker_notes</i> speaker notes</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">spellcheck</i> spellcheck</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">star_rate</i> star rate</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">stars</i> stars</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">subject</i> subject</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">supervisor_account</i> supervisor account</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">swap_horiz</i> swap horiz</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">swap_vert</i> swap vert</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">swap_vertical_circle</i> swap vertical circle</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">system_update_alt </i> system update alt </div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">tab</i> tab</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">theaters</i> theaters</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">thumb_down</i> thumb down</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">thumb_up</i> thumb up</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">timeline</i> timeline</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">toc</i> toc</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">today</i> today</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">touch_app</i> touch app</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">track_changes</i> track changes</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">translate</i> translate</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">trending_down</i> trending down</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">trending_flat</i> trending flat</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">trending_up</i> trending up</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">turned_in</i> turned in</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">turned_in_not</i> turned in not</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">update</i> update</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">verified_user</i> verified user</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">view_array</i> view array</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">view_carousel</i> view carousel</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">view_column</i> view column</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">view_headline</i> view headline</div>
+              <div class="fa-hover small-3 columns left"><i class="material-icons">view_list</i> view list</div>
+
+            </div>
+            <!-- <h3 id="charts">Charts</h3> -->
+
+            <a href="https://design.google.com/icons/" class='action'> Find more Material icons. </a> 
+            <br>
+            <br>
+            <br>
+
+            <!-- pagination -->
+            <div class="clearfix">
+              <a href="index.html" class="button secondary small left">Prev: Intro</a>
+              <a href="assets.html" class="button small right">Next: Assets</a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-54353103-1');
+  ga('send', 'pageview');
+</script>
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="bower_components/foundation/js/foundation.min.js"></script>
+
+<!-- zeroclipboard -->
+<script src="bower_components/zeroclipboard/dist/ZeroClipboard.min.js"></script>
+<script>
+  var client = new ZeroClipboard( document.getElementsByClassName("palette-block") );
+  client.on( "ready", function(readyEvent) { });
+</script>
+
+</body>
+</html>
+
