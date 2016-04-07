@@ -137,6 +137,8 @@ strong,
 
 /*Button*/
 
+/*Standard Buttons*/
+
 .standard-button{
   background-color: #BD8CC0;
   color:#FFFFFF;
@@ -153,7 +155,7 @@ strong,
   outline: none;
 }
 
-.disabled-button{
+.disabled-standard-button{
   background-color: #dfdfdf;
   color: #95a5a6;
   font-size:16px;
@@ -162,6 +164,37 @@ strong,
   cursor: not-allowed;
 }
 
+/*Flat Buttons*/
+
+.flat-button{
+  background-color: Transparent;
+  border: none;
+  cursor:pointer;
+  color:#BD8CC0;
+  font-weight: 700;
+  font-size:16px;
+  outline: none;
+}
+
+.flat-button:hover, .flat-button:active ,.flat-button:focus{
+  background-color: Transparent;
+  border: none;
+  cursor:pointer;
+  color:#915194 !important;
+  font-weight: 700;
+  font-size:16px;
+}
+
+.disabled-flat-button,
+.disabled-flat-button[disabled],.disabled-flat-button[disabled]:hover{
+  background-color: Transparent;
+  border: none;
+  color:#95a5a6;
+  font-size:16px;
+  font-weight: 700;
+  box-shadow: none;
+  cursor: not-allowed;
+}
 
 
 
