@@ -155,7 +155,7 @@ strong,
   outline: none;
 }
 
-.disabled-standard-button{
+.disabled-button{
   background-color: #dfdfdf;
   color: #95a5a6;
   font-size:16px;
@@ -197,8 +197,67 @@ strong,
 }
 
 
+/*Text Field*/
+.text-field-group{
+  position: relative;
+  margin-bottom: 45px;
+}
+
+input, input[type="text"]{
+  font-size:18px;
+  background-color: transparent;
+  color:#696969;
+  padding: 10px 0px 10px 0px;
+  display: block;
+  width: 50%;
+  border:none !important;
+  border-bottom: 1px solid #696969 !important;
+  box-shadow: none !important;
+}
+input:focus{
+  outline:none;
+}
+
+label{
+  color:#a5a5a5;
+  font:18px;
+  left:1px;
+  top: 10px;
+  position:absolute;
+  pointer-events:none;
+  transition: 0.2s ease all;
+}
+
+input:focus ~ label, input:valid ~ label {
+  top:-20px;
+  font-size:14px;
+  color: #BD8CC0;
+}
 
 
+/* Bottom Bars */
+.bar  { 
+  position:relative; 
+  display:block; 
+  width:50%; }
+.bar:before, .bar:after   {
+  content:'';
+  height:3px; 
+  width:0px;
+  bottom:18px; 
+  position:absolute;
+  background:#BD8CC0; 
+  transition:0.2s ease all; 
+}
+.bar:before {
+  left:50%;
+}
+.bar:after {
+  right:50%; 
+}
+input:focus ~ .bar:before, input:focus ~ .bar:after {
+  width:50%;
+}
 
 
 
