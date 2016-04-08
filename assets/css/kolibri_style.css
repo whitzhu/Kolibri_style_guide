@@ -113,14 +113,6 @@ body, p {
 
 /*Typography*/
 
-
-.light-text {
-  font-family: "NotoSans";
-  font-weight: 300;
-  letter-spacing: 0.015em;
-  -webkit-font-smoothing: antialiased;
-  letter-spacing: 0.07em; }
-
 .regular-text {
   font-family: "NotoSans";
   font-weight: 400;
@@ -133,3 +125,23 @@ strong,
   font-weight: 700;
   letter-spacing: 0.035em;
   -webkit-font-smoothing: antialiased; }
+
+.title {
+  font-size: 32px;
+}
+
+.subtitle {
+  font-size: 24px;
+}
+
+.heading {
+  font-size: 24px;
+}
+
+.annotation {
+  color: #A5A5A5;
+}
+
+.alert {
+  color: #EF2121;
+}
