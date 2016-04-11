@@ -313,152 +313,77 @@
             <div class="row">
 
               <div class="large-6 columns">
-                <a href="" class="tiny button">.tiny.button</a><br>
-                <a href="" class="small button">.small.button</a><br>
-                <button type="button" class="button small" disabled>.button (disabled)</button><br>
-                <a href="" class="button expand">.expand</a><br>
+                <button class="standard-button">Standard Button</button>
               </div>
 
               <div class="large-6 columns">
-                <a href="" class="button secondary">.tiny.secondary</a><br>
-                <a href="" class="small button success radius">.small.success.radius</a><br>
-                <a href="" class="button tiny round disabled">.round.disabled</a><br>
-                <a href="" class="button small cancel"><span class="fa fa-times">&nbsp;</span> Cancel</a><br>
+                <button type="button" class="disabled-button" disabled>Disabled</button><br>
               </div>
             </div>
 
             <p>&nbsp;</p>
-            <p>Custom Border Buttons:</p>
+            <p>Promoted Button Examples:</p>
+            <div class="row">
+               <div class="large-6 columns">
+                  <button class="promoted-button">Promoted Button</button>
+                </div>
+
+                <div class="large-6 columns">
+                <button type="button" class="disabled-button" disabled>Disabled</button><br>
+              </div>
+            </div>
+
+            <p>&nbsp;</p>
+            <p>Flat Button Examples:</p>
 
             <div class="row">
 
               <div class="large-6 columns">
-                <a href="" class="button hollow">
-                  A Regular Border Button
-                </a>
-                <br>
-                <a href="" class="button hollow primary">
-                  <i class="fa fa-paper-plane left"></i> 
-                  A Primary Border Button
-                </a>
-                <br>
-                <a href="" class="button hollow secondary">
-                  A Secondary Border Button 
-                  <i class="fa fa-chevron-right right"></i>
-                </a>
+                <button class="flat-button">Flat Button</button>
               </div>
 
               <div class="large-6 columns">
-                <a href="" class="button hollow disabled">
-                  Disabled Border Button
-                </a>
-                <br>
-                <a href="" class="button hollow primary disabled">
-                  <i class="fa fa-paper-plane left"></i> 
-                  Disabled Primary Border 
-                </a>
-                <br>
-                <button class="button hollow secondary" disabled>
-                  Disabled Secondary Border 
-                  <i class="fa fa-chevron-right right"></i>
-                </button>
+                <button class="disabled-button" disabled>Disabled</button>
               </div>
             </div>
-
-            <p>Sizes:</p>
-
-            <a href="" class="large button hollow">Large Button</a>
-            &nbsp;&nbsp; 
-            <a href="" class="large button hollow secondary">Large Button</a> 
-            <br>
-            <a href="" class="button hollow">Regular Button</a>
-            &nbsp;&nbsp; 
-            <a href="" class="button hollow secondary">Regular Button</a>
-            <br>
-            <a href="" class="button hollow small">Small Button</a>
-            &nbsp;&nbsp; 
-            <a href="" class="button hollow small secondary">Small Button</a> 
-            <br>
-            <a href="" class="button hollow tiny">Tiny Button</a>
-            &nbsp;&nbsp; 
-            <a href="" class="button hollow tiny secondary">Tiny Button</a>
-            <br>
-            <a href="" class="button hollow compact">Compact Button</a>
-            &nbsp;&nbsp; 
-            <a href="" class="button hollow compact secondary">Compact Button</a>
-            <a href="" class="button hollow compact secondary">
-              Filter 
-              <i class="fa fa-filter right"></i>
-            </a>
-            </p>
 
             <p id="forms">&nbsp;</p>
 
             <p>Form Examples:</p>
 
-            <form>
-              <div class="row">
-                <div class="large-12 columns">
-                  <label>Input Label
-                    <input type="text" placeholder="large-12.columns">
-                  </label>
-                </div>
-              </div>
-              <div class="row">
-                <div class="large-4 columns">
-                  <label>Input Label
-                    <input type="text" placeholder="large-4.columns">
-                  </label>
-                </div>
-                <div class="large-4 columns">
-                  <label>Input Label
-                    <input type="text" placeholder="large-4.columns">
-                  </label>
-                </div>
-                <div class="large-4 columns">
-                  <div class="row collapse">
-                    <label>Input Label</label>
-                    <div class="small-9 columns">
-                      <input type="text" placeholder="small-9.columns">
-                    </div>
-                    <div class="small-3 columns">
-                      <span class="postfix">.com</span>
-                    </div>
+            <div class="row">          
+              <div class="large-6 columns">
+                <form>
+                  <div class="text-field-group">
+                    <input type="text" required >
+                    <span class="bar"></span>
+                    <label>User Name</lab>
                   </div>
-                </div>
+                </form>
               </div>
-              <div class="row">
-                <div class="large-12 columns">
-                  <label>Select Box
-                    <select>
-                      <option value="husker">Husker</option>
-                      <option value="starbuck">Starbucks</option>
-                      <option value="hotdog">Hot Dog</option>
-                      <option value="apollo">Apollo</option>
-                    </select>
-                  </label>
-                </div>
+              
+              <div class="large-6 columns">
+                <form>
+                  <div class="text-field-group">
+                    <input type="text" required>
+                    <span class="bar"></span>
+                    <label>Password</label>
+                  </div>
+                </form>
               </div>
-              <div class="row">
-                <div class="large-6 columns">
-                  <label>Choose Your Favorite</label>
-                  <input type="radio" name="pokemon" value="Red" id="pokemonRed"><label for="pokemonRed">Red</label>
-                  <input type="radio" name="pokemon" value="Blue" id="pokemonBlue"><label for="pokemonBlue">Blue</label>
-                </div>
-                <div class="large-6 columns">
-                  <label>Check These Out</label>
-                  <input id="checkbox1" type="checkbox"><label for="checkbox1">Checkbox 1</label>
-                  <input id="checkbox2" type="checkbox"><label for="checkbox2">Checkbox 2</label>
-                </div>
+            </div>
+
+            <div class="row">          
+              <div class="large-12 columns">
+                <form>
+                  <div class="text-field-group">
+                    <textarea type="textarea" required></textarea>
+                    <span class="bar"></span>
+                    <label>Text Area</label>
+                  </div>
+                </form>
               </div>
-              <div class="row">
-                <div class="large-12 columns">
-                  <label>Textarea Label
-                    <textarea placeholder="small-12.columns"></textarea>
-                  </label>
-                </div>
-              </div>
-            </form>
+            </div>
 
             <p>&nbsp;</p>
 
