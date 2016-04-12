@@ -275,7 +275,7 @@ strong,
 .text-field-group .bar:after {
   right:50%; 
 }
-.text-field-group input:focus ~ .text-field-group .bar:before, .text-field-group input:focus ~ .text-field-group .bar:after, .text-field-group textarea:focus ~.bar:before,.text-field-group textarea:focus ~.bar:after {
+.text-field-group input:focus ~ .text-field-group .bar:before, .text-field-group input:focus ~ .text-field-group .bar:after, .text-field-group textarea:focus ~.bar:before, .text-field-group textarea:focus ~.bar:after {
   width:50%;
 }
 
@@ -296,25 +296,8 @@ strong,
   padding-left: 20px;
 }
 
-/*Progress Bar*/
 
-/*#ko_progress_wrapper{
-  position: relative;
-  width:50%;
-  height: 25px;
-  background-color: #A5A5A5;
-  border-radius:4px;
-}
-
-#ko_progress_bar{
-  position: absolute;
-  width:100%;
-  height:100%;
-  background-color: #BD8CC0;
-  border-radius:4px;
-
-}*/
-
+/*Progress bar 1*/
 
 #ko_progress_wrapper{
   width:50%;
@@ -343,7 +326,7 @@ strong,
   display: block;
 }
 
-#ko_progress_label{
+#ko_progress_bar_tooltip{
   top:-45px;
   position: absolute;
 }

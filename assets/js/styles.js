@@ -13,16 +13,23 @@ progress(percent, $('#ko_progress_wrapper'));
 
 
 $(function(){
-    var label = $('#ko_progress_label');
+    var label = $('#ko_progress_bar_tooltip');
      
   
-     label.children('.cls-label3').text(percent +"%");
-     // label.css({ left: progressBarWidth-25, position:'absolute'});
-     // label.animate({ width: progressBarWidth }, 500).html(percent + "% ");
-     label.animate({left: progressBarWidth-25},1000);
+    //Animate tooltip along with progress bar
+    label.animate({left: progressBarWidth-25},1000);
 
+    //Animate tooltip counter
+    label.children('.cls-tooltip-text').text('Counter',0).animate({
+        Counter: percent
+        }, {
+            duration: 1000,
+            easing: 'swing',
+            step: function (now) {
+                $(this).text(Math.ceil(now)+"%");
+            }
+        });
  });
-
 
 
 });
