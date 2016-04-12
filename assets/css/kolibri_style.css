@@ -334,13 +334,16 @@ strong,
 
 /*progress bar 2*/
 
-#ko_progress_2 {
+#ko_progress_steps {
   margin-bottom: 60px;
 }
 
-#ko_progress_step_1{
-
+.ko_progress_steps_element{
+  display: inline-block;
+  text-align: center;
 }
+
+
 #ko_progress_step_line{
   top:-55px;
   position: relative;
@@ -348,13 +351,7 @@ strong,
 }
 
 #ko_progress_step_current{
-
     vertical-align: top;
-}
-
-.ko_progress_steps{
-  display: inline-block;
-  text-align: center;
 }
 
 .ko_progress_steps_text{
