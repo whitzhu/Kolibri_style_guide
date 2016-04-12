@@ -327,7 +327,7 @@ input:focus ~ .bar:before, input:focus ~ .bar:after, textarea:focus ~.bar:before
   width:50%;
   height:16px;
   background-color: #A5A5A5;
-  border-radius:4px;
+  border-radius:8px;
 }
 
 #ko_progress_bar{
@@ -336,7 +336,7 @@ input:focus ~ .bar:before, input:focus ~ .bar:after, textarea:focus ~.bar:before
   line-height: 25px;
   text-align: center;
   width:0;
-  border-radius:4px;
+  border-radius:8px;
   background-color:#EDDEED;
 }
 
