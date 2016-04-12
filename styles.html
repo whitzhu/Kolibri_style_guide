@@ -24,6 +24,8 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
 
+  <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>    
+  <script type='text/javascript'  src="../Kolibri_style_guide/assets/js/styles.js"></script>
   <script src="//use.typekit.net/rls2lvm.js"></script>
   <script>try{Typekit.load();}catch(e){}</script>
 </head>
@@ -409,11 +411,28 @@
             </div>
 
 
+            <p>&nbsp;</p>
+            <p>Progress Bar:</p>
+            <div class="ko_progress row">
+              <div class="large-12 columns">
+                <span class="ko_progress_label">
+                  
+                </span>
+                <svg id="ko_progress_label" data-name="ko_progress_label" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="56px" height="56px"><defs><style>.cls-label{fill:none;}.cls-label2{fill:#bd8cc0;}.cls-label3{font-size:5px;fill:#fff;}</style></defs><title>ko_progress_label</title><path class="cls-label" d="M24,0H0V24H24V0Zm0,0H0V24H24V0ZM0,24H24V0H0V24Z"/><path class="cls-label2" d="M6.34,16L12,21.66,17.66,16A8,8,0,1,0,6.34,16Z"/><text x="-1" class="cls-label3 " transform="translate(8.18 12.19)"></text></svg>
+                
+                <div id="ko_progress_wrapper">
+                  <div id="ko_progress_bar"></div>
+                </div>
+                <span class="ko_progress_text">Updating coachreportthing.file... </span>
+                </div>
+           </div>
+
+
 
 
 
             <p>&nbsp;</p>
-
+            
             <h3 id="icons" style='font-weight: bold;'>Icons</h3>
 
             <section class="layout-panel" style="background-color: #03A9F4; color: white; font-weight: 700; font-size: 24px; padding: 0.5em 1.5em 0.5em;">Material icons</section>
@@ -583,8 +602,6 @@
     ga('create', 'UA-54353103-1');
   ga('send', 'pageview');
 </script>
-<script src="bower_components/jquery/dist/jquery.min.js"></script>
-<script src="bower_components/foundation/js/foundation.min.js"></script>
 
 <!-- zeroclipboard -->
 <script src="bower_components/zeroclipboard/dist/ZeroClipboard.min.js"></script>

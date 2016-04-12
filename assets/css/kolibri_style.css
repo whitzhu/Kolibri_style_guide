@@ -288,12 +288,11 @@ input:focus ~ .bar:before, input:focus ~ .bar:after, textarea:focus ~.bar:before
 
 
 /*Data Visualization*/
+
+/* Completion Status */
 .ko_completion_status{
   margin-bottom: 28px;
 }
-
-
-
 
 .ko_completion_text{
   vertical-align: middle;
@@ -303,6 +302,61 @@ input:focus ~ .bar:before, input:focus ~ .bar:after, textarea:focus ~.bar:before
   padding-bottom: 25px;
   padding-left: 20px;
 }
+
+/*Progress Bar*/
+
+/*#ko_progress_wrapper{
+  position: relative;
+  width:50%;
+  height: 25px;
+  background-color: #A5A5A5;
+  border-radius:4px;
+}
+
+#ko_progress_bar{
+  position: absolute;
+  width:100%;
+  height:100%;
+  background-color: #BD8CC0;
+  border-radius:4px;
+
+}*/
+
+
+#ko_progress_wrapper{
+  width:50%;
+  height:16px;
+  background-color: #A5A5A5;
+  border-radius:4px;
+}
+
+#ko_progress_bar{
+  height:100%;
+  color: #FFFFFF;
+  line-height: 25px;
+  text-align: center;
+  width:0;
+  border-radius:4px;
+  background-color:#EDDEED;
+}
+
+.ko_progress_text{
+  margin-top: 10px;
+  color:#BD8CC0;
+  font-size:14px;
+  width:50%;
+  text-align: center;
+  line-height: 16px;
+  display: block;
+}
+
+#ko_progress_label{
+  top:-45px;
+  position: absolute;
+}
+
+
+
 
 .title {
   font-size: 32px;
