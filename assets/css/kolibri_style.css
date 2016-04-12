@@ -207,6 +207,132 @@ strong,
 }
 
 
+/*List*/
+.demo_list ul {
+  height: 200px;
+  width: 400px;
+}
+.ko_list ul {
+  list-style:none;
+  padding:0px;
+  margin:0px;
+  background:#fff;
+  overflow-y: auto;
+  overflow-x : hidden;
+  border-radius: 4px;
+}
+.ko_list li {
+  -webkit-user-select: none; /* Chrome/Safari */        
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+ */
+  -o-user-select: none;
+  user-select: none;
+  display: block;
+  padding: 10px 28px;
+  margin: 0;
+  font-weight: bold;
+  -moz-transition: none;
+  -webkit-transition: none;
+  -o-transition: color 0 ease-in;
+  transition: none;
+}
+.ko_list li:hover {
+  background-color: #eddeed;
+}
+.ko_list input[type=checkbox] {
+  display: inline-block;
+  width:16px;
+  height:16px;
+  margin: 0;
+  margin-right: 14px;
+  background-image :linear-gradient(rgb(0,0,0),rgb(224,224,224));
+}
+.ko_list_title li:first-child {
+  position: absolute;
+  background-color: white;
+  width: 384px;
+  /*width: inherit;*/
+  padding-right: 25px;
+  margin-right: -25px;
+  border-bottom-width: 308px;
+  border-bottom: thin solid #cccccc;
+}
+.ko_list_title li:first-child label{
+  left: inherit;
+  position: initial;
+}
+.ko_list label {
+ display: inline-block; 
+ position: inherit;
+ pointer-events: all;
+ color: #696969 !important;
+ font-size: 16px !important;
+ font-weight: bold;
+}
+
+/*checkbox*/
+.ko_list ul li label input[type=checkbox]:not(old) {
+  width     : 2em;
+  margin    : 0;
+  padding   : 0;
+  font-size : 1em;
+  opacity   : 0;
+}
+.ko_list ul li label input[type=checkbox]:not(old) {
+  display      : inline-block;
+  margin-left  : -10px;
+  line-height  : 1.5em;
+}
+.ko_list ul li label > span {
+  float: left;
+  display          : inline-block;
+  width            : 1em;
+  height           : 1em;
+  margin           : 0.25em 0.5em 0.25em 0.25em;
+  border-radius    : 0.25em;
+  background       : #cccccc;
+  vertical-align   : bottom;
+}
+.ko_list ul li label input[type=checkbox]:not(old):checked + span {
+  background : #BD8CC0;
+}
+.ko_list ul li label input[type=checkbox]:not(old):checked + span:before{
+  content     : '✓';
+  display     : block;
+  width       : 1em;
+  color       : white;
+  font-size   : 0.875em;
+  line-height : 1em;
+  text-align  : center;
+  font-weight : bold;
+}
+
+
+/*scrollbar*/
+::-webkit-scrollbar {
+  width: 22px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+::-webkit-scrollbar-track {
+  background: #cccccc;
+  -webkit-border-radius: 14px;
+  border-radius: 14px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  border: 6px solid transparent;
+  background-clip: padding-box;
+}
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 14px;
+  border-radius: 14px;
+  border: 7px solid transparent;
+  background: #ffffff; 
+  background-clip: padding-box;
+}
+
+
+
 /*Text Field*/
 .text-field-group{
   position: relative;
