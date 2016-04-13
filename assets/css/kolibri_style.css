@@ -334,13 +334,11 @@ strong,
 
 
 /*Text Field*/
-.text-field-group{
+.ko_text_field, .ko_text_area{
   position: relative;
   margin-bottom: 45px;
 }
-
-
-.text-field-group input, .text-field-group input[type="text"],.text-field-group textarea,.text-field-group form textarea{
+.ko_text_field input, .ko_text_fieldinput[type="text"],.ko_text_area textarea,.ko_text_area form textarea{
   font-size:18px;
   font-style: normal;
   font-family: NotoSans !important;
@@ -353,15 +351,13 @@ strong,
   border-bottom: 1px solid #696969 !important;
   box-shadow: none !important;
 }
-.text-field-group textarea, .text-field-group form textarea{
+.ko_text_area textarea, .ko_text_area form textarea{
   resize: none;
 }
-
-.text-field-group input:focus, .text-field-group textarea:focus{
+.ko_text_field input:focus, .ko_text_area textarea:focus{
   outline:none;
 }
-
-.text-field-group label{
+.ko_text_field label , .ko_text_area label{
   color:#a5a5a5;
   font:18px;
   left:1px;
@@ -372,21 +368,20 @@ strong,
   -moz-transition:0.2s ease all; 
   -webkit-transition:0.2s ease all;
 }
-
-.text-field-group input:focus ~ label, .text-field-group input:valid ~ label, .text-field-group textarea:focus ~ label, .text-field-group textarea:valid ~ label {
+.ko_text_field input:focus ~ label, .ko_text_field input:valid ~ label, .ko_text_area textarea:focus ~ label, .ko_text_area textarea:valid ~ label {
   top:-20px;
   font-size:14px;
   color: #BD8CC0;
 }
 
-
 /* Bottom Bars */
-.text-field-group .bar  { 
+.ko_text_field .bar  , .ko_text_area .bar { 
   position:relative; 
   display:block; 
   width:50%;
-  color: #696969; }
-.text-field-group .bar:before, .text-field-group .bar:after   {
+  color: #696969; 
+}
+.ko_text_field .bar:before, .ko_text_field .bar:after , .ko_text_area .bar:before, .ko_text_area .bar:after   {
   content:'';
   height:3px; 
   width:0px;
@@ -395,13 +390,13 @@ strong,
   background:#BD8CC0; 
   transition:0.2s ease all; 
 }
-.text-field-group .bar:before {
+.ko_text_field .bar:before , .ko_text_area .bar:before{
   left:50%;
 }
-.text-field-group .bar:after {
+.ko_text_field .bar:after, .ko_text_area .bar:before {
   right:50%; 
 }
-.text-field-group input:focus ~ .text-field-group .bar:before, .text-field-group input:focus ~ .text-field-group .bar:after, .text-field-group textarea:focus ~.bar:before, .text-field-group textarea:focus ~.bar:after {
+.ko_text_field input:focus ~ .bar:before, .ko_text_field input:focus ~ .bar:after, .ko_text_area textarea:focus ~ .bar:before, .ko_text_area textarea:focus ~ .bar:after {
   width:50%;
 }
 
@@ -492,7 +487,7 @@ strong,
   width:260px;
   height:260px;
   background-color: #FFFFFF;
-  box-shadow: 1px 1px 5px 0 rgba(0,0,0,0.15);
+  box-shadow: 1px 1px 4px 0 rgba(0,0,0,0.10);
   text-align: center;
   margin-bottom: 60px;
   padding: 0 10px;
