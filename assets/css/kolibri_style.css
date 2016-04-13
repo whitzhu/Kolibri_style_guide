@@ -22,7 +22,7 @@ html, body {
   background-color: #FAFAFA;
 }
 body, p {
-  font-size: 14px !important;
+  font-size: 14px;
 }
 
 .button, .button.success, .button.secondary, .button.small, button {
@@ -545,6 +545,11 @@ strong,
 
 .heading {
   font-size: 24px;
+}
+
+.subheading {
+  font-size: 16px;
+  font-weight: bold;
 }
 
 .annotation {
