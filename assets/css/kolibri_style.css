@@ -664,26 +664,34 @@ strong,
 
 
 .title {
+  font-family: NotoSans;
   font-size: 32px;
+  font-weight: bold;
 }
 
 .subtitle {
+  font-family: NotoSans;
   font-size: 24px;
 }
 
 .heading {
+  font-family: NotoSans;
   font-size: 24px;
+  font-weight: bold;
 }
 
 .subheading {
+  font-family: NotoSans;
   font-size: 16px;
   font-weight: bold;
 }
 
 .annotation {
+  font-family: NotoSans;
   color: #A5A5A5;
 }
 
 .alert {
+  font-family: NotoSans;
   color: #EF2121;
 }
