@@ -52,11 +52,9 @@ body, p {
 }
 .bk_primary {
   background-color: #bd8cc0;
-  width: 366px;
 }
 .bk_primary_dark {
   background-color: #915194;
-    width: 166px;
 }
 .bk_primary_light {
   background-color: #eddeed;
@@ -106,8 +104,7 @@ body, p {
   box-shadow: none;
 }
 .palette-button {
-
-  height: 300px;
+  width:166px;
 }
 
 
