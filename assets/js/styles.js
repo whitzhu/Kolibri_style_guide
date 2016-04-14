@@ -43,7 +43,7 @@ $(function() {
 
     // Open modal
     btn.click(function(){
-        modal.show();
+        modal.fadeIn();
 
     });
 
