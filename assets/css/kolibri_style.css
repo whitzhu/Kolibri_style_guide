@@ -52,9 +52,11 @@ body, p {
 }
 .bk_primary {
   background-color: #bd8cc0;
+  width: 366px;
 }
 .bk_primary_dark {
   background-color: #915194;
+    width: 166px;
 }
 .bk_primary_light {
   background-color: #eddeed;
@@ -104,8 +106,10 @@ body, p {
   box-shadow: none;
 }
 .palette-button {
-  width: 166px;
+
+  height: 300px;
 }
+
 
 
 
@@ -309,7 +313,7 @@ strong,
 .ko_drop_list {
   position: relative;
   display: inline-block;
-  z-index: 999999;
+  z-index: 1;
   height: 36px;
 }
 .ko_drop_btn {
@@ -671,7 +675,6 @@ strong,
   height:100%;
   width:100%;
   z-index: 1;
-  overflow: auto;
   background-color: rgb(0,0,0);
   background-color: rgba(0,0,0,0.4);
   display:none;
@@ -681,7 +684,7 @@ strong,
   height:360px;
   background-color: #FFFFFF;
   text-align: center;
-  margin: 20% auto;
+  margin: 10% auto;
   padding: 0 10px;
   border-radius: 4px;
 
