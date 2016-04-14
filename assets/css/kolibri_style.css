@@ -474,7 +474,7 @@ strong,
   color:#696969 !important;
   padding: 10px 0px 10px 0px;
   display: block;
-  width: 50%;
+  width: 100%;
   border:none !important;
   border-bottom: 1px solid #696969 !important;
   box-shadow: none !important;
@@ -506,7 +506,7 @@ strong,
 .ko_text_field .bar  , .ko_text_area .bar { 
   position:relative; 
   display:block; 
-  width:50%;
+  width:100%;
   color: #696969; 
 }
 .ko_text_field .bar:before, .ko_text_field .bar:after , .ko_text_area .bar:before, .ko_text_area .bar:after   {
@@ -527,7 +527,9 @@ strong,
 .ko_text_field input:focus ~ .bar:before, .ko_text_field input:focus ~ .bar:after, .ko_text_area textarea:focus ~ .bar:before, .ko_text_area textarea:focus ~ .bar:after {
   width:50%;
 }
-
+.ko_text_field input:focus, .ko_text_area input:focus{
+   background-color: transparent;
+}
 
 /*Data Visualization*/
 
@@ -660,6 +662,36 @@ strong,
   border-radius:5px;
   background-color:#EDDEED;
 }
+
+
+/*Modals*/
+.ko_modals .ko_modal_container{
+  width:660px;
+  height:360px;
+  background-color: #FFFFFF;
+  text-align: center;
+  margin-bottom: 60px;
+  padding: 0 10px;
+  position: relative;
+}
+
+.ko_modals .ko_modal_close{
+  position: absolute;
+  right: 2%;
+  top: 5%;
+}
+
+.ko_modals .ko_modal_title{
+  padding: 10% 20% 0 20%;
+  display: block;
+}
+
+.ko_modals .ko_modal_content{
+  padding: 10% 20% 0 20%;
+  display: block;
+}
+
+
 
 
 
