@@ -8341,7 +8341,7 @@ button {
       background-color: #e5e5e5; }
     .button.secondary:hover,
     button.secondary:hover {
-      color: #666666 !important; }
+      color: #666666; }
   .button.success,
   button.success {
     border: none !important;

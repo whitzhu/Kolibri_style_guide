@@ -35,7 +35,6 @@ body, p {
 
 .button:hover, .button.success:hover, .button.secondary:hover, .button.small:hover, button:hover {
   background-color: #067c7b;
-  /*color: white !important;*/
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none; 
@@ -269,7 +268,6 @@ strong,
  font-size: 16px !important;
  font-weight: bold;
 }
-
 /*checkbox*/
 .ko_list ul li label input[type=checkbox]:not(old) {
   width     : 2em;
@@ -305,6 +303,135 @@ strong,
   line-height : 1em;
   text-align  : center;
   font-weight : bold;
+}
+
+/*dropdown list*/
+.ko_drop_list {
+  position: relative;
+  display: inline-block;
+  z-index: 999999;
+  height: 36px;
+}
+.ko_drop_btn {
+  background-color: #BD8CC0;
+  color: white;
+  padding: 7px 16px;
+  border: none;
+  transition: 0.2s ease all; /* vendorless fallback */
+  -o-transition: 0.2s ease all; /* opera */
+  -ms-transition: 0.2s ease all; /* IE 10 */
+  -moz-transition: 0.2s ease all; /* Firefox */
+  -webkit-transition: 0.2s ease all; /*safari and chrome */
+}
+.ko_drop_btn:focus {
+  outline: none;
+  background-color: #915194;
+}
+.ko_drop_content {
+  position: absolute;
+  display: none;
+  background-color: #FFFFFF;
+  min-width: 100%;
+  box-shadow: 1px 1px 4px 0 #cccccc;
+  margin-top: -24px;
+}
+.ko_drop_content a, .nested_droplist {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  color: #696969;
+  border: none;
+  transition: none; /* vendorless fallback */
+  -o-transition: none; /* opera */
+  -ms-transition: none; /* IE 10 */
+  -moz-transition: none; /* Firefox */
+  -webkit-transition: none; /*safari and chrome */
+}
+.ko_drop_content a:hover, .nested_droplist:hover {
+  background-color: #EDDEED;
+  color: #696969;
+  border: none;
+}
+.ko_drop_list:hover .ko_drop_content {
+  display: block;
+}
+.ko_drop_list:hover .ko_drop_btn {
+  background-color: #915194;
+  border-radius: 4px 4px 0 0;
+  box-shadow: 1px 1px 4px 0 #cccccc;
+}
+.nested_droplist > span {
+  float: right;
+}
+.nested_droplist > .nested_drop_content {
+  position: absolute;
+  display: none;
+}
+.nested_droplist:hover > .nested_drop_content {
+  position: absolute;
+  display: block;
+  margin-left: 96%;
+  background-color: white;
+  width: 100%;
+  box-shadow: 1px 1px 4px 0 #cccccc;
+  margin-top: -36px;
+}
+.nested_drop_content a {
+  padding: 12px 16px;
+}
+.nested_drop_content a span {
+  display: block;
+  white-space:nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.arrow-left {
+  position: relative;
+  display: none;
+  width: 0; 
+  height: 0; 
+  float: left;
+  margin-left: -30px;
+  margin-top: -26px;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent; 
+  border-right:15px solid white; 
+}
+.bridge {
+  position: absolute;
+  height: 100%;
+  width: 40px;
+  float: left;
+  margin-left: -50px;
+  top:0;
+  display: inline-block;
+  background-color: transparent;
+}
+.nested_droplist:hover .arrow-left{
+  display: inline-block;
+}
+.nested_drop_content:hover{
+  position: absolute;
+  display: block;
+  margin-left: 100%;
+  background-color: white;
+  width: 100%;
+  box-shadow: 1px 1px 4px 0 #cccccc;
+  margin-top: -50%;
+}
+.nested_drop_content a:first-child:hover .arrow-left{
+  border-right:15px solid #EDDEED; 
+}
+
+/*seam*/
+.ko_seam {
+  width: 100%;
+  background-color: #e6e6e6;
+  padding: 0 !important;
+  height: 1px;
+  margin: 2px 0;
+  overflow: hidden;
 }
 
 
@@ -586,26 +713,34 @@ strong,
 
 
 .title {
+  font-family: NotoSans;
   font-size: 32px;
+  font-weight: bold;
 }
 
 .subtitle {
+  font-family: NotoSans;
   font-size: 24px;
 }
 
 .heading {
+  font-family: NotoSans;
   font-size: 24px;
+  font-weight: bold;
 }
 
 .subheading {
+  font-family: NotoSans;
   font-size: 16px;
   font-weight: bold;
 }
 
 .annotation {
+  font-family: NotoSans;
   color: #A5A5A5;
 }
 
 .alert {
+  font-family: NotoSans;
   color: #EF2121;
 }
