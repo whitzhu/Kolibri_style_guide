@@ -35,7 +35,6 @@ body, p {
 
 .button:hover, .button.success:hover, .button.secondary:hover, .button.small:hover, button:hover {
   background-color: #067c7b;
-  /*color: white !important;*/
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none; 
@@ -328,7 +327,7 @@ strong,
   outline: none;
   background-color: #915194;
 }
-.ko_dorp_content {
+.ko_drop_content {
   position: absolute;
   display: none;
   background-color: #FFFFFF;
@@ -336,7 +335,7 @@ strong,
   box-shadow: 1px 1px 4px 0 #cccccc;
   margin-top: -24px;
 }
-.ko_dorp_content a, .nested_droplist {
+.ko_drop_content a, .nested_droplist {
   color: black;
   padding: 12px 16px;
   text-decoration: none;
@@ -349,12 +348,12 @@ strong,
   -moz-transition: none; /* Firefox */
   -webkit-transition: none; /*safari and chrome */
 }
-.ko_dorp_content a:hover, .nested_droplist:hover {
+.ko_drop_content a:hover, .nested_droplist:hover {
   background-color: #EDDEED;
   color: #696969;
   border: none;
 }
-.ko_drop_list:hover .ko_dorp_content {
+.ko_drop_list:hover .ko_drop_content {
   display: block;
 }
 .ko_drop_list:hover .ko_drop_btn {
