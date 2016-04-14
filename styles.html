@@ -486,39 +486,47 @@
 
             <p id="modals">&nbsp;</p>
             <p>Modal Examples:</p>
-
-            <div class="ko_modals">
-              <div class="ko_modal_container">
-                <div class="ko_modal_close">
-                  <a href="#" >
-                    <svg class="ko_modal_close_icon" fill="#A5A5A5" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/>
-                      <path d="M0 0h24v24H0z" fill="none"/>
-                    </svg>
-                  </a>
-                </div>
-                <div class="ko_modal_title">
-                  <span class="body">
-                    Enter the log in information of a <strong>User Account</strong> in this Facility to copy it to your <strong>Device</strong>
-                  </span>
-                  
-                </div>
-                <div class="ko_modal_content">
-                  <form>
-                    <div class="ko_text_field">
-                      <input type="text" required >
-                      <span class="bar"></span>
-                      <label>User Name</lab>
-                    </div>
-                    <div class="ko_text_field">
-                      <input type="text" required>
-                      <span class="bar"></span>
-                      <label>Password</label>
-                    </div>
-                  </form>
-                </div>
+            
+            <div class="row">
+              <div class="large-6 columns">
+                  <a href="#test" class="button standard-button" id="open-modal">Open Modal</a>
               </div>
             </div>
+
+            <div id="ko_open_modal" class="ko_modals" >
+                <div class="ko_modal_container">
+                    <div class="ko_modal_close">
+                      <a href="#close" title="close" class="close" >
+                        <svg class="ko_modal_close_icon" fill="#A5A5A5" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/>
+                          <path d="M0 0h24v24H0z" fill="none"/>
+                        </svg>
+                      </a>
+                    </div>
+                    <div class="ko_modal_title">
+                      <span class="body">
+                        Enter the log in information of a <strong>User Account</strong> in this Facility to copy it to your <strong>Device</strong>
+                      </span>
+                    </div>
+                    <div class="ko_modal_content">
+                      <form>
+                        <div class="ko_text_field">
+                          <input type="text" required>
+                          <span class="bar"></span>
+                          <label>User Name</label>
+                        </div>
+                        <div class="ko_text_field">
+                          <input type="text" required>
+                          <span class="bar"></span>
+                          <label>Password</label>
+                        </div>
+                      </form>
+                    </div>
+                </div>
+            </div> 
+
+
+
 
 
             <p>&nbsp;</p>
@@ -528,7 +536,7 @@
             <p>Completion Status Examples:</p>
             
             <div class="ko_completion_status">
-               <svg id="ko_empty_cirlce" data-name="ko_empty_cirlce" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" width="36px" height="36px"><defs><style>.cls-empty{fill:#FFFFFF; stroke:#BD8CC0;stroke-miterlimit:10;stroke-width:4px;}</style></defs><title>ko_empty_cirlce</title><circle id="ko_empty_circle_cirle" class="cls-empty" cx="20" cy="20" r="18" fill:none;/></svg>
+               <svg id="ko_empty_cirlce" data-name="ko_empty_cirlce" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" width="36px" height="36px"><defs><style>.cls-empty{fill:none; stroke:#BD8CC0;stroke-miterlimit:10;stroke-width:4px;}</style></defs><title>ko_empty_cirlce</title><circle id="ko_empty_circle_cirle" class="cls-empty" cx="20" cy="20" r="18" fill:none;/></svg>
               <span class="ko_completion_text">haven't started</span>
             </div>
 
