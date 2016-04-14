@@ -536,21 +536,47 @@ strong,
 }
 
 
+
+
+
+/*Testing Modals*/
+
+#ko_open_modal{
+  position:fixed;
+  top:0;
+  left:0;
+  height:100%;
+  width:100%;
+  z-index: 1;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+  display:none;
+}
+
+
 /*Modals*/
+
 .ko_modals .ko_modal_container{
   width:660px;
   height:360px;
   background-color: #FFFFFF;
   text-align: center;
-  margin-bottom: 60px;
+  margin: 20% auto;
   padding: 0 10px;
-  position: relative;
+  border-radius: 4px;
+
 }
 
 .ko_modals .ko_modal_close{
-  position: absolute;
-  right: 2%;
-  top: 5%;
+  float: right;
+  margin: 2%;
+  text-decoration: none;
+}
+
+.ko_modals #close:focus, .ko_modals #close:hover{
+  text-decoration: none;
+
 }
 
 .ko_modals .ko_modal_title{

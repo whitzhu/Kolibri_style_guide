@@ -1,6 +1,7 @@
 
 $(document).ready(function(){
 
+//Progress Bar
 var percent = 80;
 var progressBarWidth = 0
 
@@ -30,6 +31,39 @@ $(function(){
             }
         });
  });
+
+
+// Modal Popup
+$(function() {
+
+    var modal = $(".ko_modals");
+    var container = $(".ko_modal_container");
+    var btn = $("#open-modal");
+    var close = $(".close");
+
+    // Open modal
+    btn.click(function(){
+        modal.show();
+
+    });
+
+    // Close button 
+    close.click(function(){
+        modal.hide();
+    });
+
+    // Close modal when click outside modal container
+    modal.mousedown(function(e){
+        var clicked = $(e.target);
+        if (clicked.is('.ko_modal_container') || clicked.parents().is('.ko_modal_container')){
+            return;
+        }else{
+            modal.hide();
+        }
+    });
+
+});
+
 
 
 });
