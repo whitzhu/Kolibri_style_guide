@@ -536,11 +536,7 @@ strong,
 }
 
 
-
-
-
-/*Testing Modals*/
-
+/*Modals*/
 #ko_open_modal{
   position:fixed;
   top:0;
@@ -553,10 +549,6 @@ strong,
   background-color: rgba(0,0,0,0.4);
   display:none;
 }
-
-
-/*Modals*/
-
 .ko_modals .ko_modal_container{
   width:660px;
   height:360px;
@@ -567,23 +559,23 @@ strong,
   border-radius: 4px;
 
 }
-
 .ko_modals .ko_modal_close{
   float: right;
   margin: 2%;
   text-decoration: none;
-}
 
+}
+.ko_modal_close a{
+  border:none !important;
+}
 .ko_modals #close:focus, .ko_modals #close:hover{
   text-decoration: none;
 
 }
-
 .ko_modals .ko_modal_title{
   padding: 10% 20% 0 20%;
   display: block;
 }
-
 .ko_modals .ko_modal_content{
   padding: 10% 20% 0 20%;
   display: block;

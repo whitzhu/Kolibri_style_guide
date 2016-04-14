@@ -9119,9 +9119,9 @@ form textarea,
   .styleguide-footer a:active {
     background: #dfdfdf; }
 .styleguide ::selection,
-.styleguide-footer ::selection {
+/*.styleguide-footer ::selection {
   background: #66b6ab;
-  color: white; }
+  color: white; }*/
 .styleguide ::-moz-selection,
 .styleguide-footer ::-moz-selection {
   background: #66b6ab;
