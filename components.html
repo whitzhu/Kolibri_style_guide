@@ -1,0 +1,784 @@
+<!doctype html>
+  <!--[if lt IE 7]>
+  <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+  <!--[if IE 7]>
+  <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+  <!--[if IE 8]>
+  <html class="no-js lt-ie9"> <![endif]-->
+  <!--[if gt IE 8]><!-->
+<html class="no-js"> <!--<![endif]-->
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Kolibri Style Guide</title>
+  <meta name="description" content="Kolibri's Style Guide.">
+
+  <meta name="viewport" content="width=device-width">
+
+  <link rel="icon" type="image/png" href="assets/img/favicon.ico" />
+  <link rel="apple-touch-icon-precomposed" href="assets/img/apple-touch-icon-precomposed.png" />
+
+  <link rel="stylesheet" href="assets/css/styleguide.css">
+  <link rel="stylesheet" href="assets/css/kolibri_style.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+  <script src="assets/js/kolibri_style.js"></script>
+
+  <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>    
+  <script type='text/javascript'  src="../Kolibri_style_guide/assets/js/styles.js"></script>
+</head>
+
+<body id="dash" ng-app="app">
+  <!--[if lt IE 7]>
+  <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
+    your browser</a> to improve your experience.</p>
+  <![endif]-->
+
+  <section role="main" class="scroll-container">
+    <div class="row full-width styleguide">
+
+      <div class="large-2 medium-12 columns sidebar-wrap">
+        <div class="sidebar">
+
+          <h1>
+            <a href="index.html">
+              <img src="assets/img/logo_circle_white.png">
+            </a>
+          </h1>
+
+          <nav role="navigation">
+            <ul class="side-nav">
+              <li class="heading"><a href="index.html">Intro</a>
+                <ul>
+                  <li><a href="index.html#outline">Outline</a></li>
+                  <li><a href="index.html#vision">Vision</a></li>
+                </ul>
+              </li>
+
+              <li class="heading"><a href="styles.html">Styles</a>
+                <ul>
+                  <li><a href="styles.html#colors">Flat</a></li>
+                </ul>
+              </li>
+
+              <li class="heading active"><a class="primary" href="components.html" style='font-weight: bold;'>Components</a>
+                <ul>
+                  <li><a href="components.html#colors">Colors</a></li>
+                  <li><a href="components.html#typography">Typography</a></li>
+                  <li><a href="components.html#buttons">Buttons</a></li>
+                  <li><a href="components.html#forms">Forms</a></li>
+                  <li><a href="components.html#list">List</a></li>
+                  <li><a href="components.html#cards">Cards</a></li>
+                  <li><a href="components.html#modals">Modals</a></li>
+                  <li><a href="components.html#data_visualization">Data Visualization  &nbsp</a></li>
+                  <li><a href="components.html#icons">Icons</a></li>
+                </ul>
+              </li>
+
+              <li class="heading"><a href="assets.html">Assets</a>
+                <ul>
+                  <li><a href="assets.html#brandelements">Brand Elements</a></li>
+                  <li><a href="assets.html#imagery">Imagery</a></li>
+                </ul>
+              </li>
+
+              <li class="heading"><a href="voice.html">Voice</a></li>
+            </ul>
+          </nav>
+
+        </div>
+      </div>
+
+      <div class="large-10 medium-12 columns">
+        <div class="row">
+          <div class="large-10 large-centered medium-10 medium-centered small-12 small-centered column">
+
+            <h3 id="colors" style='font-weight: bold;'>Colors</h3>
+            <p class='default_text'>We use color to indate the state of the app. Use English tenses as the metaphor, Primary corresponds to present tense; Action corresponds to future tense.</p>
+
+            <p class='subheading'>Primary:</p>
+            <div class="row">
+              <div class="small-4 medium-3 large-2 columns left palette-block" data-clipboard-text="#bd8cc0">
+                <section>
+                  <div class="palette-button bk_primary"></div>
+                  <small>Normal</small>
+                  <small>current state</small>
+                  <span>bd8cc0</span>
+                </section>
+              </div>
+
+              <div class="small-4 medium-3 large-2 columns left palette-block" data-clipboard-text="#eddeed">
+                <section>
+                  <div class="palette-button bk_primary_light"></div>
+                  <small>Light</small>
+                  <small>available options</small>
+                  <span>eddeed</span>
+                </section>
+              </div>
+
+              <div class="small-4 medium-3 large-2  columns left palette-block" data-clipboard-text="#915194">
+                <section>
+                  <div class="palette-button bk_primary_dark"></div>
+                  <small>Dark</small>
+                  <small>? ? ?</small>
+                  <span>915194</span>
+                </section>
+              </div>
+            </div>
+
+            <p class='subheading'>Action:</p>
+            <div class="row">
+              <div class="small-4 medium-3 large-2 columns left palette-block" data-clipboard-text="#55aa93">
+                <section>
+                  <div class="palette-button bk_action"></div>
+                  <small>Normal</small>
+                  <small>promoted future</small>
+                  <span>55aa93</span>
+                </section>
+              </div>
+
+              <div class="small-4 medium-3 large-2 columns left palette-block" data-clipboard-text="#deede9">
+                <section>
+                  <div class="palette-button bk_action_light"></div>
+                  <small>Light</small>
+                  <small>potential future</small>
+                  <span>deede9</span>
+                </section>
+              </div>
+
+              <div class="small-4 medium-3 large-2 columns left palette-block" data-clipboard-text="#067c7b">
+                <section>
+                  <div class="palette-button bk_action_dark"></div>
+                  <small>Dark</small>
+                  <small>? ? ?</small>
+                  <span>067c7b</span>
+                </section>
+              </div>
+            </div>
+
+            <p class='subheading'>Background:</p>
+            <div class="row">
+              <div class="small-4 medium-3 large-2 columns left palette-block" data-clipboard-text="#FAFAFA">
+                <section>
+                  <div class="palette-button background"></div>
+                  <small>Normal</small>
+                  <small>ubiquitous</small>
+                  <span>FAFAFA</span>
+                </section>
+              </div>
+
+              <div class="small-4 medium-3 large-2 columns left palette-block" data-clipboard-text="#FFFFFF">
+                <section>
+                  <div class="palette-button background_light"></div>
+                  <small>Light</small>
+                  <small>quietly waitting for input</small>
+                  <span>FFFFFF</span>
+                </section>
+              </div>
+
+              <div class="small-4 medium-3 large-2 columns left palette-block" data-clipboard-text="#696969">
+                <section>
+                  <div class="palette-button background_dark"></div>
+                  <small>Dark</small>
+                  <small>? ? ?</small>
+                  <span>696969</span>
+                </section>
+              </div>
+            </div>
+
+            <p class='subheading'>Text:</p>
+            <!-- blues -->
+            <div class="row">
+              <div class="small-4 medium-3 large-2 columns left palette-block" data-clipboard-text="#696969">
+                <section>
+                  <div class="palette-button" style='background-color: #696969;'></div>
+                  <small>Default</small>
+                  <small>readable</small>
+                  <span>696969</span>
+                </section>
+              </div>
+
+              <div class="small-4 medium-3 large-2 columns left palette-block" data-clipboard-text="#A5A5A5">
+                <section>
+                  <div class="palette-button" style='background-color: #A5A5A5;'></div>
+                  <small>Annotation</small>
+                  <small>description/non-actionable</small>
+                  <span>A5A5A5</span>
+                </section>
+              </div>
+
+              <div class="small-4 medium-3 large-2 columns left palette-block" data-clipboard-text="#EF2121">
+                <section>
+                  <div class="palette-button" style='background-color: #EF2121;'></div>
+                  <small>Alert</small>
+                  <small>error/failure/danger</small>
+                  <span>EF2121</span>
+                </section>
+              </div>
+            </div>
+
+
+            <p>&nbsp;</p>
+
+            <h3 id="typography" style='font-weight: bold;'>Typography</h3>
+
+            <section class="layout-panel">
+              <div class="row">
+                <div class="small-12 large-7 columns">
+                  <h2 class="regular-text" style="margin-bottom:-0.25rem;">Noto Regular</h2>
+                  <small class="regular-text">Weight 400, letter-spacing 0.0075ems</small>
+
+                  <h2 class="bold-text" style="margin-bottom:-0.25rem;">Noto Bold</h2>
+                  <small class="regular-text">Weight 700, letter-spacing 0.035ems</small>
+                  <br>
+                </div>
+              </div>
+            </section>
+
+            <p>Examples:</p>
+
+            <div class="type-demo">
+
+              <div class='title bold-text'>Title</div>
+              <br>
+              <div class='subtitle regular-text'>Subtitle</div>
+              <br>
+              <div class='heading bold-text'>Heading</div>
+              <br>
+              <div class='subheading'>Subheading</div>
+              <br>
+              <div>Body</div>
+              <br>
+              <div class='annotation regular-text'>Annotation</div>
+              <br>
+              <div class='alert regular-text'>Alert</div>
+
+              <p>&nbsp;</p>
+
+              <p><strong>Paragraph text: </strong>Learning Equality is committed to enabling every person in the world to achieve a quality basic education, through supporting the creation and distribution of open educational resources, and facilitating their use inside and outside of classrooms around the world. Through this work, we aim to build a new, open, and fundamentally human-centered educational model, in order to promote human flourishing.</p>
+
+              <p>&nbsp;</p>
+
+            </div>
+
+            <h3 id="uielements" style='font-weight: bold;'>UI Elements</h3>
+
+
+            <p id="buttons">&nbsp;</p>
+            <p>Standard Button Examples:</p>
+
+            <div class="row">
+
+              <div class="large-6 columns">
+                <button class="standard-button">Standard Button</button>
+              </div>
+
+              <div class="large-6 columns">
+                <button type="button" class="disabled-button" disabled>Disabled</button><br>
+              </div>
+            </div>
+
+            <p>&nbsp;</p>
+            <p>Promoted Button Examples:</p>
+            <div class="row">
+               <div class="large-6 columns">
+                  <button class="promoted-button">Promoted Button</button>
+                </div>
+
+                <div class="large-6 columns">
+                <button type="button" class="disabled-button" disabled>Disabled</button><br>
+              </div>
+            </div>
+
+            <p>&nbsp;</p>
+            <p>Flat Button Examples:</p>
+
+            <div class="row">
+
+              <div class="large-6 columns">
+                <button class="flat-button">Flat Button</button>
+              </div>
+
+              <div class="large-6 columns">
+                <button class="disabled-button" disabled>Disabled</button>
+              </div>
+            </div>
+
+
+            <p id="forms">&nbsp;</p>
+            <p>Form Examples:</p>
+
+            <div class="row">          
+              <div class="large-6 columns">
+                <form>
+                  <div class="ko_text_field">
+                    <input type="text" required >
+                    <span class="bar"></span>
+                    <label>User Name</lab>
+                  </div>
+                </form>
+              </div>
+              
+              <div class="large-6 columns">
+                <form>
+                  <div class="ko_text_field">
+                    <input type="text" required>
+                    <span class="bar"></span>
+                    <label>Password</label>
+                  </div>
+                </form>
+              </div>
+            </div>
+
+            <div class="row">          
+              <div class="large-12 columns">
+                <form>
+                  <div class="ko_text_area">
+                    <textarea type="textarea" required></textarea>
+                    <span class="bar"></span>
+                    <label>Text Area</label>
+                  </div>
+                </form>
+              </div>
+            </div>
+
+
+            <p id="list">&nbsp;</p>
+            <p>List Example:</p>
+
+            <div class="ko_list demo_list">
+              <ul class="subheading">
+                <li> List item 1 </li>
+                <li> List item 2 </li>
+                <li> List item 3 </li>
+                <li> List item 4 </li>
+                <li> List item 5 </li>
+                <li> List item 6 </li>
+                <li> List item 7 </li>
+                <li> List item 8 </li>
+                <li> List item 9 </li>
+              </ul>
+            </div>
+
+            <br>
+            <br>
+            <p>Check List Example:</p>
+
+            <div class="ko_list ko_list_title demo_list">
+              <ul>
+                <li>
+                  <label><input type="checkbox" onclick="ko_list_selectAll(this);"/> Select all <span><span></span></span></label>
+                </li>
+                <li> this is a spacer </li>
+                <li>
+                  <label><input type="checkbox" /> List item 1 <span><span></span></span></label>
+                </li>
+                <li>
+                  <label><input type="checkbox" /> List item 2 <span><span></span></span></label>
+                </li>
+                <li>
+                  <label><input type="checkbox" /> List item 3 <span><span></span></span></label>
+                </li>
+                <li>
+                  <label><input type="checkbox" /> List item 4 <span><span></span></span></label>
+                </li>
+                <li>
+                  <label><input type="checkbox" /> List item 5 <span><span></span></span></label>
+                </li>
+                <li>
+                  <label><input type="checkbox" /> List item 6 <span><span></span></span></label>
+                </li>
+                <li>
+                  <label><input type="checkbox" /> List item 7 <span><span></span></span></label>
+                </li>
+                <li>
+                  <label><input type="checkbox" /> List item 8 <span><span></span></span></label>
+                </li>
+                <li>
+                  <label><input type="checkbox" /> List item 9 <span><span></span></span></label>
+                </li>
+              </ul>
+            </div>
+
+            <br>
+            <br>
+            <p>Dropdown List Example:</p>
+
+            <div class="ko_drop_list">
+              <button class="ko_drop_btn subheading">Dropdown List &nbsp &nbsp &nbsp &#9660</button>
+              <div class="ko_drop_content subheading">
+                <a href="#"> List item 1.1 </a>
+                <a class="ko_seam"></a>
+                <a href="#"> List item 2.1 </a>
+                <div class="nested_droplist"> List item 2.2 <span>&#9660</span>
+                  <div class="nested_drop_content">
+                    <a href="#"> <div class="bridge"></div><span>Nested List item 1</span> <div class="arrow-left"></div></a>
+                    <a href="#"> <span>Long Name Nested List</span></a>
+                    <a href="#"> <span>Nested List item 3</span> </a>
+                    <a href="#"> <span>Long Name Nested List</span> </a>
+                    <a href="#"> <span>Nested List item 5</span> </a>
+                  </div>
+                </div>
+                <a href="#"> List item 2.3 </a>
+                <a href="#"> List item 2.4 </a>
+                <a class="ko_seam"></a>
+                <a href="#"> List item 3.1 </a>
+                <a href="#"> List item 3.2 </a>
+                <a href="#"> List item 3.3 </a>
+                <a href="#"> List item 3.4 </a>
+              </div>
+            </div>
+
+            <p id="forms">&nbsp;</p>
+
+            <p id="cards">&nbsp;</p>
+            <p>Cards Examples:</p>
+
+            <div class="row">          
+              <div class="large-6 columns">
+                  <div class="ko_card">
+                    <div class="ko_container">
+                      <div class="ko_icon_container">
+                        <svg id="ko_video_icon" data-name="ko_video_icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" width="60px" height="60px"><defs><style>.cls-video-icon{fill:#bd8cc0;}</style></defs><title>ko_video_icon</title><path class="cls-video-icon" d="M10,16.5L16,12,10,7.5v9ZM12,2A10,10,0,1,0,22,12,10,10,0,0,0,12,2Zm0,18a8,8,0,1,1,8-8A8,8,0,0,1,12,20Z" transform="translate(-2 -2)"/></svg>
+                      </div>
+                      <div class="ko_text_container">  
+                        <span class="ko_title">Subtraction</span>
+                      </div>
+                      <div class="ko_progress_bar_container">
+                          <div class="ko_progress_wrapper">
+                            <div class="ko_progress_bar"></div>
+                          </div>
+                      </div>
+                    </div>
+                      
+                  </div>
+              </div>
+                       
+              <div class="large-6 columns">
+                  <div class="ko_card">
+                    <div class="ko_container">
+                      <div class="ko_icon_container">
+                        <svg id="ko_video_icon" data-name="ko_video_icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" width="60px" height="60px"><defs><style>.cls-video-icon{fill:#bd8cc0;}</style></defs><title>ko_video_icon</title><path class="cls-video-icon" d="M10,16.5L16,12,10,7.5v9ZM12,2A10,10,0,1,0,22,12,10,10,0,0,0,12,2Zm0,18a8,8,0,1,1,8-8A8,8,0,0,1,12,20Z" transform="translate(-2 -2)"/></svg>
+                      </div>
+                      <div class="ko_text_container">  
+                        <span class="ko_title">Measurement and Geometry</span>
+                      </div>
+                      <div class="ko_progress_bar_container">
+                          <div class="ko_progress_wrapper">
+                            <div class="ko_progress_bar"></div>
+                          </div>
+                      </div>
+                    </div>
+                      
+                  </div>
+              </div>
+            </div>
+
+
+            <p id="modals">&nbsp;</p>
+            <p>Modal Examples:</p>
+            
+            <div class="row">
+              <div class="large-6 columns">
+                  <a href="#test" class="button standard-button" id="open-modal">Open Modal</a>
+              </div>
+            </div>
+
+            <div id="ko_open_modal" class="ko_modals" >
+                <div class="ko_modal_container">
+                    <div class="ko_modal_close">
+                      <a href="#close" title="close" class="close" >
+                        <svg class="ko_modal_close_icon" fill="#A5A5A5" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/>
+                          <path d="M0 0h24v24H0z" fill="none"/>
+                        </svg>
+                      </a>
+                    </div>
+                    <div class="ko_modal_title">
+                      <span class="body">
+                        Enter the log in information of a <strong>User Account</strong> in this Facility to copy it to your <strong>Device</strong>
+                      </span>
+                    </div>
+                    <div class="ko_modal_content">
+                      <form>
+                        <div class="ko_text_field">
+                          <input type="text" required>
+                          <span class="bar"></span>
+                          <label>User Name</label>
+                        </div>
+                        <div class="ko_text_field">
+                          <input type="text" required>
+                          <span class="bar"></span>
+                          <label>Password</label>
+                        </div>
+                      </form>
+                    </div>
+                </div>
+            </div> 
+
+
+
+
+
+            <p>&nbsp;</p>
+
+            <h3 id="data_visualization" style='font-weight: bold;'>Data Visualization</h3>
+
+            <p>Completion Status Examples:</p>
+            
+            <div class="ko_completion_status">
+               <svg id="ko_empty_cirlce" data-name="ko_empty_cirlce" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" width="36px" height="36px"><defs><style>.cls-empty{fill:none; stroke:#BD8CC0;stroke-miterlimit:10;stroke-width:4px;}</style></defs><title>ko_empty_cirlce</title><circle id="ko_empty_circle_cirle" class="cls-empty" cx="20" cy="20" r="18" fill:none;/></svg>
+              <span class="ko_completion_text">haven't started</span>
+            </div>
+
+             <div class="ko_completion_status">
+               <svg id="ko_half_circle" data-name="ko_half_circle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" width="36px" height="36px" ><defs><style>.cls-half{fill:#EDDEED;stroke:#BD8CC0;stroke-miterlimit:10;stroke-width:4px;}</style></defs><title>ko_half_circle</title><path class="cls-half" d="M1554,713a18,18,0,0,1,36,0m-18,18a18,18,0,1,0-18-18A18,18,0,0,0,1572,731Z" transform="translate(-1552 -693)"/></svg>
+              <span class="ko_completion_text">started</span>
+             </div>
+
+             <div class="ko_completion_status">
+              <svg id="ko_half_dot" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" width="36px" height="36px" ><defs><style>.cls-dot1{fill:none;stroke:#bd8cc0;stroke-miterlimit:10;stroke-width:4px;}.cls-dot2{fill:#bd8cc0;}</style></defs><title>ko_half_dot</title><circle class="cls-dot1" cx="20" cy="20" r="18"/><circle class="cls-dot2" cx="20" cy="20" r="7.72"/></svg>
+              <span class="ko_completion_text">in progress</span>
+            </div>
+
+            <div class="ko_completion_status">
+               <svg id="ko_checked_circle" data-name="ko_checked_circle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" width="36px" height="36px"><defs><style>.cls-checked{fill:#BD8CC0;stroke:#BD8CC0;stroke-width:4px;}.cls-1,.cls-2{stroke-miterlimit:10;}.cls-2{fill:#fff;stroke:#fff;stroke-width:2px;}</style></defs><title>ko_checked_circle</title><circle class="cls-checked" cx="20" cy="20" r="18"/><path class="cls-2" d="M1582.9,706.4L1568,721.35l-6.85-6.85,1.76-1.76,5.09,5.08,13.19-13.18Z" transform="translate(-1552 -693)"/></svg>
+               <span class="ko_completion_text">completed</span>
+            </div>
+
+
+            <p>&nbsp;</p>
+            <p>Progress Bar 1 Examples:</p>
+            <div class="ko_progress row">
+              <div class="large-12 columns">
+                <svg id="ko_progress_bar_tooltip" data-name="ko_progress_bar_tooltip" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="56px" height="56px"><defs><style>.cls-tooltip{fill:none;}.cls-tooltip2{fill:#bd8cc0;}.cls-tooltip-text{font-size:5px;fill:#fff;}</style></defs><title>ko_progress_bar_tooltip</title><path class="cls-tooltip" d="M24,0H0V24H24V0Zm0,0H0V24H24V0ZM0,24H24V0H0V24Z"/><path class="cls-tooltip2" d="M6.34,16L12,21.66,17.66,16A8,8,0,1,0,6.34,16Z"/><text x="-1" class="cls-tooltip-text " transform="translate(8.18 12.19)"></text></svg>
+                
+                <div id="ko_progress_wrapper">
+                  <div id="ko_progress_bar"></div>
+                </div>
+                <span class="ko_progress_text">Updating coachreportthing.file... </span>
+              </div>
+            </div>
+
+
+
+            <p>&nbsp;</p>
+            <p>Progress Bar 2 Examples:</p>
+            
+            <!--First Set-->
+            <div class="row" id="ko_progress_steps">
+              <div class="large-12 columns">
+                
+                <div class="ko_progress_steps_element">
+                    <svg id="ko_progress_step_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" width="36px" height="36px"><defs><style>.cls-step1_1{fill:none;stroke:#bd8cc0;stroke-miterlimit:10;stroke-width:4px;}.cls-step1_2{font-size:18px;fill:#b88bc2;font-weight:700;}</style></defs><title>ko_progress_step_1</title><circle class="cls-step1_1" cx="20" cy="20" r="18"/><text class="cls-step1_2" transform="translate(14.85 25.08)">1</text></svg>
+                    <span class="ko_progress_steps_text">Be Curious</span>
+                </div>
+
+                <div class="ko_progress_steps_element">
+                    <svg id="ko_progress_step_line" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 167.33 4" width="144px"><defs><style>.cls-stepline1{fill:none;stroke:#bd8cc0;stroke-miterlimit:10;stroke-width:4px;stroke-dasharray:4;}</style></defs><title>ko_progress_step_line</title><line class="cls-stepline1" y1="2" x2="167.33" y2="2"/></svg>
+                </div>
+
+                <div class="ko_progress_steps_element">
+                    <svg id="ko_progress_step_current" data-name="ko_progress_step_current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 48.27" width="36px" ><defs><style>.cls-step_current1{fill:none;stroke:#bd8cc0;stroke-miterlimit:10;stroke-width:4px;}.cls-step_current2{font-size:18px;fill:#b88bc2;font-family:Noto Sans;font-weight:700;}</style></defs><title>ko_progress_step_current</title><path class="cls-step_current1" d="M7.27,27.29L20,40,32.73,27.29A18,18,0,1,0,7.27,1.84,18,18,0,0,0,7.27,27.29Z" transform="translate(0 5.45)"/><text class="cls-step_current2" transform="translate(14.85 26.8)">2</text></svg>
+                    <span class="ko_progress_steps_text">Find Content</span>
+                </div>
+
+                <div class="ko_progress_steps_element">
+                    <svg id="ko_progress_step_line" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 167.33 4" width="144px"><defs><style>.cls-stepline1{fill:none;stroke:#bd8cc0;stroke-miterlimit:10;stroke-width:4px;stroke-dasharray:4;}</style></defs><title>ko_progress_step_line</title><line class="cls-stepline1" y1="2" x2="167.33" y2="2"/></svg>
+                </div>
+
+                <div class="ko_progress_steps_element">
+                    <svg id="ko_progress_step_3" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" width="36px" height="36px"><defs><style>.cls-step3_1{fill:none;stroke:#bd8cc0;stroke-miterlimit:10;stroke-width:4px;}.cls-step3_2{font-size:18px;fill:#b88bc2;font-weight:700;}</style></defs><title>ko_progress_step_3</title><circle class="cls-step3_1" cx="20" cy="20" r="18"/><text class="cls-step3_2" transform="translate(14.85 25.08)">3</text></svg>
+                    <span class="ko_progress_steps_text">Learn</span>
+                </div>
+              </div>
+            </div>
+
+            <!--Second Set-->
+            <div class="ko_progress_2 row">
+              <div class="large-12 columns">
+              
+                <div class="ko_progress_steps_element">
+                    <svg id="ko_progress_step_1_on" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" width="36px" height="36px"><defs><style>.cls-step1_1_on{fill:#bd8cc0;stroke:#bd8cc0;stroke-miterlimit:10;stroke-width:4px;}.cls-step1_2_on{font-size:18px;fill:#FFFFFF;font-weight:700;}</style></defs><title>ko_progress_step_1_on</title><circle class="cls-step1_1_on" cx="20" cy="20" r="18"/><text class="cls-step1_2_on" transform="translate(14.85 25.08)">1</text></svg>
+                    <span class="ko_progress_steps_text">Be Curious</span>
+                </div>
+
+                <div class="ko_progress_steps_element">
+                    <svg id="ko_progress_step_line" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 167.33 4" width="144px"><defs><style>.cls-stepline1{fill:none;stroke:#bd8cc0;stroke-miterlimit:10;stroke-width:4px;stroke-dasharray:4;}</style></defs><title>ko_progress_step_line</title><line class="cls-stepline1" y1="2" x2="167.33" y2="2"/></svg>
+                </div>
+
+                <div class="ko_progress_steps_element">
+                    <svg id="ko_progress_step_current_on" data-name="ko_progress_step_current_on" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 48.27" width="36px" ><defs><style>.cls-step_current1_on{fill:#bd8cc0;stroke:#bd8cc0;stroke-miterlimit:10;stroke-width:4px;}.cls-step_current2_on{font-size:18px;fill:#FFFFFF;font-family:Noto Sans;font-weight:700;}</style></defs><title>ko_progress_step_current</title><path class="cls-step_current1_on" d="M7.27,27.29L20,40,32.73,27.29A18,18,0,1,0,7.27,1.84,18,18,0,0,0,7.27,27.29Z" transform="translate(0 5.45)"/><text class="cls-step_current2_on" transform="translate(14.85 26.8)">2</text></svg>
+                    <span class="ko_progress_steps_text">Find Content</span>
+                </div>
+
+                <div class="ko_progress_steps_element">
+                    <svg id="ko_progress_step_line" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 167.33 4" width="144px"><defs><style>.cls-stepline1{fill:none;stroke:#bd8cc0;stroke-miterlimit:10;stroke-width:4px;stroke-dasharray:4;}</style></defs><title>ko_progress_step_line</title><line class="cls-stepline1" y1="2" x2="167.33" y2="2"/></svg>
+                </div>
+
+                <div class="ko_progress_steps_element">
+                    <svg id="ko_progress_step_3" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" width="36px" height="36px"><defs><style>.cls-step3_1{fill:none;stroke:#bd8cc0;stroke-miterlimit:10;stroke-width:4px;}.cls-step3_2{font-size:18px;fill:#b88bc2;font-weight:700;}</style></defs><title>ko_progress_step_3</title><circle class="cls-step3_1" cx="20" cy="20" r="18"/><text class="cls-step3_2" transform="translate(14.85 25.08)">3</text></svg>
+                    <span class="ko_progress_steps_text">Learn</span>
+                </div>
+              </div>
+            </div>
+
+
+
+            <p>&nbsp;</p>
+            
+            <h3 id="icons" style='font-weight: bold;'>Icons</h3>
+
+            <p><strong>Material icons</strong> is our choice of icon library. Use it on frequent actions. Most of the time, company with descriptions.</a>
+
+            <div class="row font-awesome-list">
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">accessibility</i> accessibility</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">account_box</i> account box</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">account_circle</i> account circle</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">alarm</i> alarm</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">announcement</i> announcement</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">assessment</i> assessment</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">assignment</i> assignment</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">autorenew</i> autorenew</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">backup</i> backup</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">bookmark</i> bookmark</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">bookmark_border</i> bookmark border</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">bug_report</i> bug report</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">build</i> build</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">cached</i> cached</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">change_history</i> change history</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">check_circle</i> check circle</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">code</i> code</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">compare_arrows</i> compare arrows</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">copyright</i> copyright</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">credit_card</i> credit card</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">dashboard</i> dashboard </div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">date_range</i> date range</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">delete</i> delete</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">delete_forever</i> delete forever</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">description</i> description</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">dns</i> dns</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">done</i> done</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">done_all</i> done all</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">eject</i> eject</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">euro_symbol</i> euro symbol</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">event</i> event</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">exit_to_app</i> exit to app</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">explore</i> explore</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">extension</i> extension</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">face</i> face</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">favorite</i> favorite</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">favorite_border</i> favorite border</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">feedback </i> feedback </div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">find_in_page</i> find in page</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">fingerprint</i> fingerprint</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">get_app</i> get app</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">grade</i> grade</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">group_work</i> group work</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">help</i> help</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">help_outline</i> help outline</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">highlight_off</i> highlight off</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">history</i> history</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">hourglass_empty </i> hourglass empty</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">hourglass_full</i> hourglass full</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">https </i> https</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">important_devices </i> important devices </div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">info</i> info</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">info_outline </i> info outline </div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">input</i> input</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">invert_colors</i> invert colors</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">label</i> label</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">label_outline </i> label outline </div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">language</i> language</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">launch</i> launch</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">lightbulb_outline</i> lightbulb outline</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">list</i> list</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">lock</i> lock</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">lock_open</i> lock open</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">lock_outline</i> lock outline</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">loyalty</i> loyalty</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">note_add</i> note add</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">opacity</i> opacity</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">open_in_browser</i> open in browser</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">open_in_new</i> open in new</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">open_with </i> open with </div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">pan_tool</i> pan tool</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">perm_device_information</i> perm device information</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">perm_identity</i> perm identity</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">perm_media</i> perm media</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">perm_scan_wifi</i> perm scan wifi</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">pets</i> pets</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">print</i> print</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">query_builder</i> query builder</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">question_answer </i> question answer </div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">reorder</i> reorder</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">report_problem</i> report problem</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">restore </i> restore </div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">restore_page</i> restore page</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">room</i> room</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">schedule</i> schedule</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">search</i> search</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">settings</i> settings</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">settings_applications</i> settings applications</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">settings_ethernet</i> settings ethernet</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">settings_remote</i> settings remote</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">shop</i> shop</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">shopping_cart</i> shopping cart</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">speaker_notes</i> speaker notes</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">spellcheck</i> spellcheck</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">star_rate</i> star rate</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">stars</i> stars</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">subject</i> subject</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">supervisor_account</i> supervisor account</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">swap_horiz</i> swap horiz</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">swap_vert</i> swap vert</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">swap_vertical_circle</i> swap vertical circle</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">system_update_alt </i> system update alt </div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">tab</i> tab</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">theaters</i> theaters</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">thumb_down</i> thumb down</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">thumb_up</i> thumb up</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">timeline</i> timeline</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">toc</i> toc</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">today</i> today</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">touch_app</i> touch app</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">track_changes</i> track changes</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">translate</i> translate</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">trending_down</i> trending down</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">trending_flat</i> trending flat</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">trending_up</i> trending up</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">turned_in</i> turned in</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">turned_in_not</i> turned in not</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">update</i> update</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">verified_user</i> verified user</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">view_array</i> view array</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">view_carousel</i> view carousel</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">view_column</i> view column</div>
+              <div class="fa-hover small-4 medium-4 large-3 columns"><i class="material-icons">view_headline</i> view headline</div>
+              <div class="fa-hover small-3 columns left"><i class="material-icons">view_list</i> view list</div>
+
+            </div>
+            <!-- <h3 id="charts">Charts</h3> -->
+
+            <a href="https://design.google.com/icons/" class='action'> Find more Material icons. </a> 
+            <br>
+            <br>
+            <br>
+
+            <!-- pagination -->
+            <div class="clearfix">
+              <a href="styles.html" class="button secondary small left">Prev: Styles</a>
+              <a href="assets.html" class="button small right">Next: Assets</a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+</body>
+</html>
+
