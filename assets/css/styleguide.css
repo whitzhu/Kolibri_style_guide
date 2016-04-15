@@ -9113,8 +9113,7 @@ form textarea,
   border-bottom: 0.25em solid transparent; }
   .styleguide a:hover,
   .styleguide-footer a:hover {
-    color: #66b6ab;
-    border-bottom: 0.1em solid #abd7d1; }
+    color: #66b6ab; }
   .styleguide a:active,
   .styleguide-footer a:active {
     background: #dfdfdf; }

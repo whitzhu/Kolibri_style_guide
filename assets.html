@@ -20,6 +20,39 @@
 
   <link rel="stylesheet" href="assets/css/styleguide.css">
   <link rel="stylesheet" href="assets/css/kolibri_style.css">
+  <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>  
+  <script>
+    $(document).ready(function(){
+        var dir = "assets/mockups"; // folder location
+        var fileextension = ".png"; // image format
+        $(function adding_mockup_images(){
+          for (var i=1; i < 7; i++){
+            var clickable_outer = $("<a />").attr({href: dir + '/ContentCurration/' + i + fileextension, target: "_blank", class: "small-4 medium-3 large-2 columns left"});
+            var thumb_img = $("<img />").attr('src', dir + '/ContentCurration/' + i + fileextension );
+            thumb_img.appendTo(clickable_outer);
+            clickable_outer.appendTo("#content_curration");
+          }
+          for (var i=1; i < 12; i++){
+            var clickable_outer = $("<a />").attr({href: dir + '/Dashboard/' + i + fileextension, target: "_blank", class: "small-4 medium-3 large-2 columns left"});
+            var thumb_img = $("<img />").attr('src', dir + '/Dashboard/' + i + fileextension );
+            thumb_img.appendTo(clickable_outer);
+            clickable_outer.appendTo("#dashboard");
+          }
+          for (var i=1; i < 10; i++){
+            var clickable_outer = $("<a />").attr({href: dir + '/Sidebar/' + i + fileextension, target: "_blank", class: "small-4 medium-3 large-2 columns left"});
+            var thumb_img = $("<img />").attr('src', dir + '/Sidebar/' + i + fileextension );
+            thumb_img.appendTo(clickable_outer);
+            clickable_outer.appendTo("#sidebar");
+          }
+          for (var i=1; i < 3; i++){
+            var clickable_outer = $("<a />").attr({href: dir + '/VideoPage/' + i + fileextension, target: "_blank", class: "small-4 medium-3 large-2 columns left"});
+            var thumb_img = $("<img />").attr('src', dir + '/VideoPage/' + i + fileextension );
+            thumb_img.appendTo(clickable_outer);
+            clickable_outer.appendTo("#video_page");
+          }
+        });   
+    });
+  </script>
 
 </head>
 
@@ -68,19 +101,19 @@
           <div class="large-10 large-centered medium-12 medium-centered small-12 small-centered column">
             <h1 class="jumbotron">Assets</h1>
 
-            <h3 id="brandelements">Imagery</h3>
+            <h3 id="brandelements">Logo</h3>
 
             <div class="row">
-              <div class="small-10 columns">
+              <!-- <div class="small-10 columns">
                 <p>Click below to download a brand assets pack. Included are logos, branding.</p>
 
                 <p>
                   <button href="https://learningequality.org/" type="button" class="disabled-button" disabled>Download</button>
                 </p>
-              </div>
+              </div> -->
 
               <div class="small-2 columns">
-                <img src="assets/img/Kolibri Logo_large.png">
+                <a href="assets/img/Kolibri Logo_large.png" target="_blank"><img src="assets/img/Kolibri Logo_large.png"></a> 
               </div>
             </div>
 
@@ -88,15 +121,17 @@
 
             <h3 id="imagery">Mock-up</h3>
 
-            <!-- <p><a href="assets/img/real_bird.jpg" target="_blank">Kolibri Wallpaper <i class="fa fa-external-link fa-1x"></i></a></p>
+            <p>&#x2022 Content Curration </p>
+            <div class="row" id='content_curration'></div>
 
-            <a href="assets/img/real_bird.jpg" target="_blank"><img src="assets/img/real_bird.jpg"></a>
- -->
+            <p>&#x2022 Dashboard </p>
+            <div class="row" id='dashboard'></div>
 
-            <p><a href="https://drive.google.com/drive/u/2/folders/0Bz532TCJtVdjRmxZUkhKUnBmSU0" class='action'> &#x2022 Content Curration </a></p>
-            <p><a href="https://drive.google.com/drive/u/2/folders/0Bz532TCJtVdjek1ZeFp3X3VJS3c" class='action'> &#x2022 Dashboard </a></p>
-            <p><a href="https://drive.google.com/drive/u/2/folders/0Bz532TCJtVdjVFNBRlBJUDNqM1k" class='action'> &#x2022 Sidebar </a></p>
-            <p><a href="https://drive.google.com/drive/u/2/folders/0Bz532TCJtVdjZ2tjVVFXT1pJR0E" class='action'> &#x2022 Video Page </a></p>
+            <p>&#x2022 Sidebar </p>
+            <div class="row" id='sidebar'></div>
+
+            <p>&#x2022 Video Page </p>
+            <div class="row" id='video_page'></div>
 
 
             <div class="btn-row">
