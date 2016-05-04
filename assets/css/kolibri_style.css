@@ -42,7 +42,7 @@ body, p {
 
 
 .primary {
-  color: #bd8cc0 !important;
+  color: #996192 !important;
 }
 .primary_dark {
   color: #915194 !important;
@@ -51,7 +51,7 @@ body, p {
   color: #eddeed !important;
 }
 .bk_primary {
-  background-color: #bd8cc0;
+  background-color: #996192;
 }
 .bk_primary_dark {
   background-color: #915194;
@@ -130,14 +130,16 @@ strong,
 
 /*Standard Buttons*/
 .standard-button{
-  background-color: #BD8CC0;
-  color:#FFFFFF;
+  background-color: #FAFAFA;
+  color:#996192;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none; 
   outline: none;
+  border:2px solid #996192;
   font-size:16px;
-  font-weight: 400;
+  font-weight: 700;
+  border: 2px solid #996192 !important;
 }
 
 .standard-button:hover, .standard-button:active, .standard-button:focus  {
@@ -149,18 +151,18 @@ strong,
 
 /*Promoted Buttons*/
 .promoted-button{
-  background-color: #55AA93;
+  background-color: #996192;
   color:#FFFFFF;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none; 
   outline: none;
   font-size:16px;
-  font-weight: 400;
+  font-weight: 700;
 }
 
 .promoted-button:hover, .promoted-button:active, .promoted-button:focus  {
-  background-color: #067C7B;
+  background-color: #915194;
   outline: none;
 }
 
@@ -169,7 +171,7 @@ strong,
   background-color: transparent;
   border: none;
   cursor:pointer;
-  color:#BD8CC0;
+  color:#996192;
   font-weight: 700;
   font-size:16px;
   outline: none;
@@ -293,7 +295,7 @@ strong,
   vertical-align   : bottom;
 }
 .ko_list ul li label input[type=checkbox]:not(old):checked + span {
-  background : #BD8CC0;
+  background : #996192;
 }
 .ko_list ul li label input[type=checkbox]:not(old):checked + span:before{
   content     : '✓';
@@ -314,7 +316,7 @@ strong,
   height: 36px;
 }
 .ko_drop_btn {
-  background-color: #BD8CC0;
+  background-color: #996192;
   color: white;
   padding: 7px 16px;
   border: none;
@@ -499,7 +501,7 @@ strong,
 .ko_text_field input:focus ~ label, .ko_text_field input:valid ~ label, .ko_text_area textarea:focus ~ label, .ko_text_area textarea:valid ~ label {
   top:-20px;
   font-size:14px;
-  color: #BD8CC0;
+  color: #996192;
 }
 
 /* Bottom Bars */
@@ -515,7 +517,7 @@ strong,
   width:0px;
   bottom:18px; 
   position:absolute;
-  background:#BD8CC0; 
+  background:#996192; 
   transition:0.2s ease all; 
 }
 .ko_text_field .bar:before , .ko_text_area .bar:before{
@@ -540,7 +542,7 @@ strong,
 
 .ko_completion_text{
   vertical-align: middle;
-  color: #BD8CC0;
+  color: #996192;
   display: inline-block;
   font-size:16px;
   padding-bottom: 25px;
@@ -569,7 +571,7 @@ strong,
 
 .ko_progress_text{
   margin-top: 10px;
-  color:#BD8CC0;
+  color:#996192;
   font-size:14px;
   width:50%;
   text-align: center;
@@ -608,7 +610,7 @@ strong,
 .ko_progress_steps_text{
   margin-top: 15px;
   display: block;
-  color:#BD8CC0;
+  color:#996192;
   font-size:16px;
 }
 
