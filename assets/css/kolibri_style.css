@@ -19,7 +19,7 @@ p, a, div, h3, h4, li {
 }
 
 html, body {
-  background-color: #FAFAFA;
+  background-color: #fbfbfb;
 }
 body, p {
   font-size: 14px;
@@ -81,7 +81,7 @@ body, p {
 }
 
 .background {
-  background-color: #FAFAFA;
+  background-color: #fbfbfb;
 }
 .background_dark {
   background-color: #3a3a3a;
@@ -132,7 +132,7 @@ strong,
 
 /*Standard Buttons*/
 .standard-button{
-  background-color: #FAFAFA;
+  background-color: #fbfbfb;
   color:#996192;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
