@@ -1,7 +1,16 @@
 
 $(document).ready(function(){
 
+$(function(){
 
+    var list_item = $('.indicator_list li a');
+    list_item.click(function(){
+        list_item.removeClass('active');
+        $(this).addClass('active');
+        console.log('nav bar was clicked');
+    });
+
+});
 
 
 $(function(){

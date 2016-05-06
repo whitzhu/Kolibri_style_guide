@@ -229,6 +229,41 @@ strong,
   font-size: 16px;
 }
 
+
+.indicator_list{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  
+  padding-bottom: 5px;
+}
+
+.indicator_list li{
+  float:left;
+  padding-bottom: 10px;
+  border-bottom: 4px solid #F1F1F1;
+}
+
+.indicator_list a{
+  padding: 10px 15px 10px 15px;
+}
+
+.indicator_list a:hover{
+  color:#686868;
+}
+
+.indicator_active_bar{
+  padding:10px 15px 10px;
+  border-bottom:4px solid blue;
+}
+
+.indicator_list .active {
+  color:#935f94;
+  font-weight: 700;
+  border-bottom: 4px solid #935f94;
+}
+
+
 /*List*/
 .demo_list ul {
   height: 200px;
