@@ -246,10 +246,11 @@ strong,
 
 .indicator_list a{
   padding: 10px 15px 10px 15px;
+  transition: all 0.2s ease-in-out; 
 }
 
-.indicator_list a:hover{
-  color:#686868;
+.indicator_list a:hover:not(.active){
+  color:#3a3a3a;
 }
 
 .indicator_active_bar{
