@@ -193,7 +193,6 @@ strong,
 }
 
 /*Disabled Button*/
-
 .disabled-button{
   background-color: #dfdfdf;
   color: #95a5a6;
@@ -214,6 +213,21 @@ strong,
   cursor: not-allowed;
 }
 
+/*Tag*/
+.ko_tag{
+  color:#FBFBFB;
+  background-color: #686868;
+  font-size: 12px;
+  border-radius: 20px;
+  height:26px;
+  padding: 1% 4% 1% 4%;
+  margin-left: 5px;
+  vertical-align: top;
+}
+
+.ko_tag_text{
+  font-size: 16px;
+}
 
 /*List*/
 .demo_list ul {
