@@ -166,7 +166,6 @@ strong,
   font-size:16px;
   font-weight: 700;
 }
-
 .promoted-button:hover, .promoted-button:active, .promoted-button:focus  {
   background-color: #72486f;
   outline: none;
@@ -220,49 +219,63 @@ strong,
   font-size: 12px;
   border-radius: 20px;
   height:26px;
-  padding: 1% 4% 1% 4%;
+  padding: 0% 4% 0% 4%;
   margin-left: 5px;
-  vertical-align: top;
+  vertical-align: middle;
 }
 
 .ko_tag_text{
   font-size: 16px;
+  vertical-align: top;
 }
 
-
+/*Inidcator*/
 .indicator_list{
   list-style-type: none;
   margin: 0;
   padding: 0;
-  
   padding-bottom: 5px;
 }
 
 .indicator_list li{
   float:left;
-  padding-bottom: 10px;
-  border-bottom: 4px solid #F1F1F1;
+/*  border-bottom: 4px solid #F1F1F1;*/
 }
 
 .indicator_list a{
   padding: 10px 15px 10px 15px;
+  padding:12px;
   transition: all 0.2s ease-in-out; 
+}
+.indicator_list .bar{
+  border-bottom: 4px solid #F1F1F1;
 }
 
 .indicator_list a:hover:not(.active){
   color:#3a3a3a;
 }
 
-.indicator_active_bar{
-  padding:10px 15px 10px;
-  border-bottom:4px solid blue;
-}
-
 .indicator_list .active {
   color:#935f94;
-  font-weight: 700;
+  font-weight:bold;
   border-bottom: 4px solid #935f94;
+  padding-bottom: 12px;
+  position: relative;
 }
+.indicator_list li, a {
+  display:inline-block;
+  text-align:center;
+}
+.indicator_list a::after {
+  display: block;
+  content:attr(title);
+  font-weight:bold;
+  height:1px;
+  color:transparent;
+  overflow:hidden;
+  visibility:hidden;
+}
+
 
 
 /*List*/
