@@ -592,7 +592,7 @@ strong,
 .ko_text_field .bar:before , .ko_text_area .bar:before{
   left:50%;
 }
-.ko_text_field .bar:after, .ko_text_area .bar:before {
+.ko_text_field .bar:after, .ko_text_area .bar:after {
   right:50%; 
 }
 .ko_text_field input:focus ~ .bar:before, .ko_text_field input:focus ~ .bar:after, .ko_text_area textarea:focus ~ .bar:before, .ko_text_area textarea:focus ~ .bar:after {
