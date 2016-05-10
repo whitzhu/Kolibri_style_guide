@@ -570,6 +570,8 @@ strong,
 .ko_text_field input:focus ~ label, .ko_text_field input:valid ~ label, .ko_text_area textarea:focus ~ label, .ko_text_area textarea:valid ~ label {
   top:-20px;
   font-size:14px;
+}
+.ko_text_field input:focus ~ label,  .ko_text_area textarea:focus ~ label {
   color: #996192;
 }
 
@@ -602,13 +604,95 @@ strong,
    background-color: transparent;
 }
 
+/*Text Field Error*/
+.ko_text_field_error{
+  position: relative;
+  margin-bottom: 45px;
+}
+.ko_text_field_error input, .ko_text_field_error[type="text"]{
+  font-size:18px;
+  font-style: normal;
+  font-family: NotoSans !important;
+  background-color: transparent;
+  color:#3a3a3a !important;
+  padding: 10px 0px 10px 0px;
+  display: block;
+  width: 100%;
+  border:none !important;
+  border-bottom: 2px solid #EF2121 !important;
+  box-shadow: none !important;
+}
+.ko_text_field_error input:focus{
+  outline:none;
+}
+.ko_text_field_error label {
+  color:#686868;
+  font:14px;
+  left:1px;
+  top: 10px;
+  position:absolute;
+  pointer-events:none;
+  transition:0.2s ease all; 
+  -moz-transition:0.2s ease all; 
+  -webkit-transition:0.2s ease all;
+}
+.ko_text_field_error input:focus ~ label, .ko_text_field_error input:valid ~ label {
+  top:-20px;
+  font-size:14px;
+  color: #EF2121; 
+}
+.ko_text_field_error:after{
+  content:"Username or Password is incorrect";
+  color:#EF2121;
+  font-size: 12px;
+  position: relative;
+  top: -16px;
+}
+
+/*Text Field Disabled*/
+.ko_text_field_disabled{
+  position: relative;
+  margin-bottom: 45px;
+  color:#95a5a6;
+}
+.ko_text_field_disabled input, .ko_text_field_disabled[type="text"]{
+  font-size:18px;
+  font-style: normal;
+  font-family: NotoSans !important;
+  background-color: transparent;
+  padding: 10px 0px 10px 0px;
+  display: block;
+  width: 100%;
+  border:none !important;
+  border-bottom: 2px dotted #95a5a6!important;
+  box-shadow: none !important;
+}
+.ko_text_field_disabled input[type="text"][disabled]{
+  background-color:  #FBFBFB;
+  color:#95a5a6 !important;
+}
+.ko_text_field_disabled input:focus{
+  outline:none;
+}
+.ko_text_field_disabled label {
+  color:#686868;
+  font:14px !important;
+  left:1px;
+  top: -20px;
+  position:absolute;
+  pointer-events:none;
+  transition:0.2s ease all; 
+  -moz-transition:0.2s ease all; 
+  -webkit-transition:0.2s ease all;
+}
+
+
 /*Data Visualization*/
 
 /* Completion Status */
 .ko_completion_status{
   margin-bottom: 28px;
 }
-
 .ko_completion_text{
   vertical-align: middle;
   color: #996192;
@@ -620,14 +704,12 @@ strong,
 
 
 /*Progress bar 1*/
-
 #ko_progress_wrapper{
   width:50%;
   height:16px;
   background-color: #686868;
   border-radius:8px;
 }
-
 #ko_progress_bar{
   height:100%;
   color: #FFFFFF;
@@ -637,7 +719,6 @@ strong,
   border-radius:8px;
   background-color:#e0b7db;
 }
-
 .ko_progress_text{
   margin-top: 10px;
   color:#996192;
@@ -647,7 +728,6 @@ strong,
   line-height: 16px;
   display: block;
 }
-
 #ko_progress_bar_tooltip{
   top:-45px;
   position: absolute;
